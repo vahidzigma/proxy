@@ -1,8 +1,5 @@
 vmess://YXV0bzo5MjcwOTRkMy1kNjc4LTQ3NjMtODU5MS1lMjQwZDBiY2FlODdAdnVzNS4wYmFkLmNvbTo0NDM?remarks=%F0%9F%87%BA%F0%9F%87%B8US-143.42.138.219-7088&obfsParam=vus5.0bad.com&path=/chat&obfs=websocket&tls=1&alterId=0
 vmess://YXV0bzo0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjRAMjMuMjI1LjMzLjQ2OjQ0Mw?remarks=%F0%9F%87%BA%F0%9F%87%B8US-23.225.33.46-8218&path=/path/1683543024453&obfs=websocket&tls=1&alterId=64
 vmess://YXV0bzoxNjViZGJiNi0zZmQwLTRkMWEtZTZmYi0wZTVjZDJhMDE1NGZAMjA1LjE4NS4xMjUuMjAwOjExNDUx?remarks=%F0%9F%87%BA%F0%9F%87%B8US-205.185.125.200-0142&obfsParam=205.185.125.200&path=/?ed=2048&obfs=websocket&alterId=0
-vmess://YXV0bzoxNjViZGJiNi0zZmQwLTRkMWEtZTZmYi0wZTVjZDJhMDE1NGZAMjA1LjE4NS4xMjUuMjAwOjExNDUx?remarks=%F0%9F%87%BA%F0%9F%87%B8US-205.185.125.200-0741&path=/&obfs=websocket&alterId=0
-vless://YXV0bzo1NjIxYjM2Yi05MWVkLTRhMGUtOTJmOS04MjA0YTUwY2VjN2FAbXN1cy5lYXN5dG9tZS5uZXQ6MzU5MTE?remarks=msus.easytome.net&path=/&obfs=websocket
-vmess://YXV0bzo5MjcwOTRkMy1kNjc4LTQ3NjMtODU5MS1lMjQwZDBiY2FlODdAdnVzNS4wYmFkLmNvbTo0NDM?remarks=%F0%9F%87%BA%F0%9F%87%B8US-143.42.138.219-7088&obfsParam=vus5.0bad.com&path=/chat&obfs=websocket&tls=1&alterId=0
-vmess://YXV0bzo5MjcwOTRkMy1kNjc4LTQ3NjMtODU5MS1lMjQwZDBiY2FlODdAdnVzNS4wYmFkLmNvbTo0NDM?remarks=%F0%9F%87%BA%F0%9F%87%B8US-143.42.138.219-7088&obfsParam=vus5.0bad.com&path=/chat&obfs=websocket&tls=1&alterId=0
-vmess://YXV0bzo5MjcwOTRkMy1kNjc4LTQ3NjMtODU5MS1lMjQwZDBiY2FlODdAdnVzNS4wYmFkLmNvbTo0NDM?remarks=%F0%9F%87%BA%F0%9F%87%B8US-143.42.138.219-7088&obfsParam=vus5.0bad.com&path=/chat&obfs=websocket&tls=1&alterId=0
+trojan://xxoo@us.blazeppn.info:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-138.197.5.103-0715
+ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M=@156.146.38.163:443#%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.163-0307
