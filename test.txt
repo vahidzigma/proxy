@@ -1,0 +1,1 @@
+- {"name":"Relay_-🇺🇸US_06","server":"23.224.15.180","type":"vmess","port":50002,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
