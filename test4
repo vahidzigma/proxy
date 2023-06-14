@@ -1,2 +1,0 @@
-proxies:
-- {"name":"zigma_-🇺🇸1","server":"msfi.easytome.net","type":"vless","port": 35247,"uuid":"2b7390ae-767a-46da-9df9-0c88919e9b55","alterId":64,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
