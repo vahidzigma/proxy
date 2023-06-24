@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：24-06-2023 12:57:18
+# 创建时间：24-06-2023 13:02:57
 # 使用模版：V2RaySE 默认模版
 # 节点数量：3
 ####################################
@@ -21,60 +21,60 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"ok 100_1","type":"ssr","server":"nsus.irundns.net","port":5000,"password":"$$Turb0++VPN$$","cipher":"chacha20-ietf","obfs":"http_post","protocol":"auth_aes128_md5"}
   - {"name":"ok 100_2","type":"vmess","server":"msifr.easytome.net","port":17497,"cipher":"auto","uuid":"3ab822e1-8f1e-4e8a-8517-6de45e57ab41","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
   - {"name":"Tavakoli.Vip86","type":"ssr","server":"nsus.imytvps.com","port":5000,"password":"$$Turb0++VPN$$","cipher":"dummy","obfs":"http_simple","protocol":"auth_aes128_md5"}
+  - {"name":"ok 100","type":"ssr","server":"nsus.irundns.net","port":5000,"password":"$$Turb0++VPN$$","cipher":"dummy","obfs":"http_post","protocol":"auth_aes128_md5"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ok 100_1
       - ok 100_2
       - Tavakoli.Vip86
+      - ok 100
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ok 100_1
       - ok 100_2
       - Tavakoli.Vip86
+      - ok 100
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ok 100_1
       - ok 100_2
       - Tavakoli.Vip86
+      - ok 100
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ok 100_1
       - ok 100_2
       - Tavakoli.Vip86
+      - ok 100
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ok 100_1
       - ok 100_2
       - Tavakoli.Vip86
+      - ok 100
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ok 100_1
       - ok 100_2
       - Tavakoli.Vip86
+      - ok 100
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -97,9 +97,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ok 100_1
       - ok 100_2
       - Tavakoli.Vip86
+      - ok 100
 
 rules:
 # 本地/局域网地址
