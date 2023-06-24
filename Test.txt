@@ -1,35 +1,49 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Surfboard
-# 创建时间：24-06-2023 13:12:17
+# 客户端：Surge
+# 创建时间：24-06-2023 13:14:28
 # 使用模版：V2RaySE 默认模版
-# 节点数量：1
+# 节点数量：3
 ####################################
 
 [General]
 loglevel = notify
-interface = 127.0.0.1
-skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
-ipv6 = false
-dns-server = system, 223.5.5.5
+bypass-system = true
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
+#DNS设置或根据自己网络情况进行相应设置
+bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+dns-server = 119.29.29.29,223.5.5.5,218.30.19.40,61.134.1.4
+external-controller-access = password@0.0.0.0:6170
+http-api = password@0.0.0.0:6171
+test-timeout = 5
+http-api-web-dashboard = true
 exclude-simple-hostnames = true
-enhanced-mode-by-rule = true
+allow-wifi-access = true
+http-listen = 0.0.0.0:6152
+socks5-listen = 0.0.0.0:6153
+wifi-access-http-port = 6152
+wifi-access-socks5-port = 6153
+
+[Script]
+http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 
 [Proxy]
 DIRECT = direct
-ok 100_2 = vmess, msifr.easytome.net, 17497, username = 3ab822e1-8f1e-4e8a-8517-6de45e57ab41, tls = false, vmess-aead = true, skip-cert-verify = true, tfo = false
+ok 100_2 = vmess, msifr.easytome.net, 17497, username = 3ab822e1-8f1e-4e8a-8517-6de45e57ab41, tls = false, vmess-aead = true, tls13 = false, sni = msifr.easytome.net, skip-cert-verify = true, tfo = false, udp-relay = false
+Tavakoli.Vip86 = external, exec = /usr/bin/ssr-local, args = -1, args = 1080, args = -s, args = nsus.imytvps.com, args = -p, args = 5000, args = -m, args = dummy, args = -k, args = $$Turb0++VPN$$, args = -o, args = http_simple, args = -O, args = auth_aes128_md5, local-port = 1080, addresses = nsus.imytvps.com, tfo = false, udp-relay = false
+ok 100 = external, exec = /usr/bin/ssr-local, args = -1, args = 1081, args = -s, args = nsus.irundns.net, args = -p, args = 5000, args = -m, args = dummy, args = -k, args = $$Turb0++VPN$$, args = -o, args = http_post, args = -O, args = auth_aes128_md5, local-port = 1081, addresses = nsus.irundns.net, tfo = false, udp-relay = false
 
 [Proxy Group]
-🚀 节点选择 = select, ♻️ 自动选择, DIRECT, ok 100_2
-♻️ 自动选择 = url-test, ok 100_2, url = http://www.gstatic.com/generate_204, interval = 300, tolerance = 50
-🌍 国外媒体 = select, 🚀 节点选择, ♻️ 自动选择, 🎯 全球直连, ok 100_2
-📲 电报信息 = select, 🚀 节点选择, 🎯 全球直连, ok 100_2
-Ⓜ️ 微软服务 = select, 🎯 全球直连, 🚀 节点选择, ok 100_2
-🍎 苹果服务 = select, 🚀 节点选择, 🎯 全球直连, ok 100_2
+🚀 节点选择 = select, ♻️ 自动选择, DIRECT, ok 100_2, Tavakoli.Vip86, ok 100
+♻️ 自动选择 = url-test, ok 100_2, Tavakoli.Vip86, ok 100, url = http://www.gstatic.com/generate_204, interval = 300, tolerance = 50
+🌍 国外媒体 = select, 🚀 节点选择, ♻️ 自动选择, 🎯 全球直连, ok 100_2, Tavakoli.Vip86, ok 100
+📲 电报信息 = select, 🚀 节点选择, 🎯 全球直连, ok 100_2, Tavakoli.Vip86, ok 100
+Ⓜ️ 微软服务 = select, 🎯 全球直连, 🚀 节点选择, ok 100_2, Tavakoli.Vip86, ok 100
+🍎 苹果服务 = select, 🚀 节点选择, 🎯 全球直连, ok 100_2, Tavakoli.Vip86, ok 100
 🎯 全球直连 = select, DIRECT, 🚀 节点选择, ♻️ 自动选择
 🛑 全球拦截 = select, REJECT, DIRECT
 🍃 应用净化 = select, REJECT, DIRECT
-🐟 漏网之鱼 = select, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, ok 100_2
+🐟 漏网之鱼 = select, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, ok 100_2, Tavakoli.Vip86, ok 100
 
 [Rule]
 # 本地/局域网地址
