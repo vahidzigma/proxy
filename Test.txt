@@ -1,51 +1,47 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Surge
-# 创建时间：24-06-2023 13:14:28
+# 客户端：QuantumultX
+# 创建时间：24-06-2023 13:15:42
 # 使用模版：V2RaySE 默认模版
 # 节点数量：3
 ####################################
 
-[General]
-loglevel = notify
-bypass-system = true
-skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
-#DNS设置或根据自己网络情况进行相应设置
-bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
-dns-server = 119.29.29.29,223.5.5.5,218.30.19.40,61.134.1.4
-external-controller-access = password@0.0.0.0:6170
-http-api = password@0.0.0.0:6171
-test-timeout = 5
-http-api-web-dashboard = true
-exclude-simple-hostnames = true
-allow-wifi-access = true
-http-listen = 0.0.0.0:6152
-socks5-listen = 0.0.0.0:6153
-wifi-access-http-port = 6152
-wifi-access-socks5-port = 6153
+[general]
+excluded_routes = 192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
+geo_location_checker = http://ip-api.com/json/?lang=zh-CN, https://github.com/KOP-XIAO/QuantumultX/raw/master/Scripts/IP_API.js
+network_check_url = http://www.baidu.com/
+server_check_url = http://www.gstatic.com/generate_204
 
-[Script]
-http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+[dns]
+server = 119.29.29.29
+server = 223.5.5.5
+server = 1.0.0.1
+server = 8.8.8.8
 
-[Proxy]
-DIRECT = direct
-ok 100_2 = vmess, msifr.easytome.net, 17497, username = 3ab822e1-8f1e-4e8a-8517-6de45e57ab41, tls = false, vmess-aead = true, tls13 = false, sni = msifr.easytome.net, skip-cert-verify = true, tfo = false, udp-relay = false
-Tavakoli.Vip86 = external, exec = /usr/bin/ssr-local, args = -1, args = 1080, args = -s, args = nsus.imytvps.com, args = -p, args = 5000, args = -m, args = dummy, args = -k, args = $$Turb0++VPN$$, args = -o, args = http_simple, args = -O, args = auth_aes128_md5, local-port = 1080, addresses = nsus.imytvps.com, tfo = false, udp-relay = false
-ok 100 = external, exec = /usr/bin/ssr-local, args = -1, args = 1081, args = -s, args = nsus.irundns.net, args = -p, args = 5000, args = -m, args = dummy, args = -k, args = $$Turb0++VPN$$, args = -o, args = http_post, args = -O, args = auth_aes128_md5, local-port = 1081, addresses = nsus.irundns.net, tfo = false, udp-relay = false
+[policy]
+static = 🚀 节点选择, ♻️ 自动选择, DIRECT, ok 100_2, Tavakoli.Vip86, ok 100
+url-latency-benchmark = ♻️ 自动选择, ok 100_2, Tavakoli.Vip86, ok 100
+static = 🌍 国外媒体, 🚀 节点选择, ♻️ 自动选择, 🎯 全球直连, ok 100_2, Tavakoli.Vip86, ok 100
+static = 📲 电报信息, 🚀 节点选择, 🎯 全球直连, ok 100_2, Tavakoli.Vip86, ok 100
+static = Ⓜ️ 微软服务, 🎯 全球直连, 🚀 节点选择, ok 100_2, Tavakoli.Vip86, ok 100
+static = 🍎 苹果服务, 🚀 节点选择, 🎯 全球直连, ok 100_2, Tavakoli.Vip86, ok 100
+static = 🎯 全球直连, DIRECT, 🚀 节点选择, ♻️ 自动选择
+static = 🛑 全球拦截, REJECT, DIRECT
+static = 🍃 应用净化, REJECT, DIRECT
+static = 🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, ok 100_2, Tavakoli.Vip86, ok 100
 
-[Proxy Group]
-🚀 节点选择 = select, ♻️ 自动选择, DIRECT, ok 100_2, Tavakoli.Vip86, ok 100
-♻️ 自动选择 = url-test, ok 100_2, Tavakoli.Vip86, ok 100, url = http://www.gstatic.com/generate_204, interval = 300, tolerance = 50
-🌍 国外媒体 = select, 🚀 节点选择, ♻️ 自动选择, 🎯 全球直连, ok 100_2, Tavakoli.Vip86, ok 100
-📲 电报信息 = select, 🚀 节点选择, 🎯 全球直连, ok 100_2, Tavakoli.Vip86, ok 100
-Ⓜ️ 微软服务 = select, 🎯 全球直连, 🚀 节点选择, ok 100_2, Tavakoli.Vip86, ok 100
-🍎 苹果服务 = select, 🚀 节点选择, 🎯 全球直连, ok 100_2, Tavakoli.Vip86, ok 100
-🎯 全球直连 = select, DIRECT, 🚀 节点选择, ♻️ 自动选择
-🛑 全球拦截 = select, REJECT, DIRECT
-🍃 应用净化 = select, REJECT, DIRECT
-🐟 漏网之鱼 = select, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, ok 100_2, Tavakoli.Vip86, ok 100
+[server_remote]
 
-[Rule]
+[filter_remote]
+
+[rewrite_remote]
+
+[server_local]
+vmess = msifr.easytome.net:17497, method = chacha20-ietf-poly1305, password = 3ab822e1-8f1e-4e8a-8517-6de45e57ab41, aead = true, tls13 = false, fast-open = false, tag = ok 100_2
+shadowsocks = nsus.imytvps.com:5000, method = none, password = $$Turb0++VPN$$, ssr-protocol = auth_aes128_md5, obfs = http_simple, tag = Tavakoli.Vip86
+shadowsocks = nsus.irundns.net:5000, method = none, password = $$Turb0++VPN$$, ssr-protocol = auth_aes128_md5, obfs = http_post, tag = ok 100
+
+[filter_local]
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
 # ACL4SSR标志 如没有，代表不是用ACL4SSR规则
@@ -64,10 +60,10 @@ IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
 IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
 IP-CIDR,198.18.0.0/16,🎯 全球直连,no-resolve
 IP-CIDR,224.0.0.0/4,🎯 全球直连,no-resolve
-IP-CIDR6,::1/128,🎯 全球直连,no-resolve
-IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
-IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
-IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
+IP6-CIDR,::1/128,🎯 全球直连,no-resolve
+IP6-CIDR,fc00::/7,🎯 全球直连,no-resolve
+IP6-CIDR,fe80::/10,🎯 全球直连,no-resolve
+IP6-CIDR,fd00::/8,🎯 全球直连,no-resolve
 DOMAIN,instant.arubanetworks.com,🎯 全球直连
 DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
 DOMAIN,router.asus.com,🎯 全球直连
@@ -2013,7 +2009,7 @@ DOMAIN-SUFFIX,amazonuniversity.jobs,🌍 国外媒体
 DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
 DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
 DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
-URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🌍 国外媒体
+#,URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🌍 国外媒体
 USER-AGENT,AppleNews*,🌍 国外媒体
 USER-AGENT,com.apple.news*,🌍 国外媒体
 DOMAIN,gspe1-ssl.ls.apple.com,🌍 国外媒体
@@ -2273,9 +2269,9 @@ DOMAIN-SUFFIX,twitch-ext.rootonline.de,🌍 国外媒体
 DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
 DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
 USER-AGENT,Viu*,🌍 国外媒体
-PROCESS-NAME,com.viu.pad,🌍 国外媒体
-PROCESS-NAME,com.viu.phone,🌍 国外媒体
-PROCESS-NAME,com.vuclip.viu,🌍 国外媒体
+#,PROCESS-NAME,com.viu.pad,🌍 国外媒体
+#,PROCESS-NAME,com.viu.phone,🌍 国外媒体
+#,PROCESS-NAME,com.vuclip.viu,🌍 国外媒体
 DOMAIN,api.viu.now.com,🌍 国外媒体
 DOMAIN,d1k2us671qcoau.cloudfront.net,🌍 国外媒体
 DOMAIN,d2anahhhmp1ffz.cloudfront.net,🌍 国外媒体
@@ -2322,9 +2318,9 @@ DOMAIN-SUFFIX,telesco.pe,📲 电报信息
 IP-CIDR,91.108.0.0/16,📲 电报信息,no-resolve
 IP-CIDR,109.239.140.0/24,📲 电报信息,no-resolve
 IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
-IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
-IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
-IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
+IP6-CIDR,2001:67c:4e8::/48,📲 电报信息,no-resolve
+IP6-CIDR,2001:b28:f23d::/48,📲 电报信息,no-resolve
+IP6-CIDR,2001:b28:f23f::/48,📲 电报信息,no-resolve
 # 长风网站，自动注入
 DOMAIN-SUFFIX,v2rayse.com,🚀 节点选择
 DOMAIN-SUFFIX,cff.pw,🚀 节点选择
@@ -2738,9 +2734,9 @@ DOMAIN-SUFFIX,telesco.pe,🚀 节点选择
 IP-CIDR,91.108.0.0/16,🚀 节点选择,no-resolve
 IP-CIDR,109.239.140.0/24,🚀 节点选择,no-resolve
 IP-CIDR,149.154.160.0/20,🚀 节点选择,no-resolve
-IP-CIDR6,2001:67c:4e8::/48,🚀 节点选择,no-resolve
-IP-CIDR6,2001:b28:f23d::/48,🚀 节点选择,no-resolve
-IP-CIDR6,2001:b28:f23f::/48,🚀 节点选择,no-resolve
+IP6-CIDR,2001:67c:4e8::/48,🚀 节点选择,no-resolve
+IP6-CIDR,2001:b28:f23d::/48,🚀 节点选择,no-resolve
+IP6-CIDR,2001:b28:f23f::/48,🚀 节点选择,no-resolve
 DOMAIN-SUFFIX,terabox.com,🚀 节点选择
 DOMAIN-SUFFIX,teraboxcdn.com,🚀 节点选择
 IP-CIDR,18.194.0.0/15,🚀 节点选择,no-resolve
@@ -3200,10 +3196,10 @@ IP-CIDR,139.220.243.27/32,🎯 全球直连,no-resolve
 IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve
 IP-CIDR,185.188.32.1/28,🎯 全球直连,no-resolve
 IP-CIDR,221.226.128.146/32,🎯 全球直连,no-resolve
-IP-CIDR6,2a0b:b580::/48,🎯 全球直连,no-resolve
-IP-CIDR6,2a0b:b581::/48,🎯 全球直连,no-resolve
-IP-CIDR6,2a0b:b582::/48,🎯 全球直连,no-resolve
-IP-CIDR6,2a0b:b583::/48,🎯 全球直连,no-resolve
+IP6-CIDR,2a0b:b580::/48,🎯 全球直连,no-resolve
+IP6-CIDR,2a0b:b581::/48,🎯 全球直连,no-resolve
+IP6-CIDR,2a0b:b582::/48,🎯 全球直连,no-resolve
+IP6-CIDR,2a0b:b583::/48,🎯 全球直连,no-resolve
 DOMAIN-SUFFIX,baomitu.com,🎯 全球直连
 DOMAIN-SUFFIX,bootcss.com,🎯 全球直连
 DOMAIN-SUFFIX,jiasule.com,🎯 全球直连
@@ -3674,3 +3670,7 @@ IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
 IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
 GEOIP,CN,🎯 全球直连
 FINAL,🐟 漏网之鱼
+
+[rewrite_local]
+
+[mitm]
