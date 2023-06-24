@@ -1,10 +1,11 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash
-# 创建时间：24-06-2023 13:16:37
+# 客户端：Clash.Meta
+# 创建时间：24-06-2023 13:29:34
 # 使用模版：V2RaySE 默认模版
-# 节点数量：3
+# 节点数量：59
 ####################################
+# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -21,60 +22,452 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"ok 100_2","type":"vmess","server":"msifr.easytome.net","port":17497,"cipher":"auto","uuid":"3ab822e1-8f1e-4e8a-8517-6de45e57ab41","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
-  - {"name":"Tavakoli.Vip86","type":"ssr","server":"nsus.imytvps.com","port":5000,"password":"$$Turb0++VPN$$","cipher":"dummy","obfs":"http_simple","protocol":"auth_aes128_md5"}
-  - {"name":"ok 100","type":"ssr","server":"nsus.irundns.net","port":5000,"password":"$$Turb0++VPN$$","cipher":"dummy","obfs":"http_post","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸💋Jooon💋1","type":"trojan","server":"38.54.126.42","port":443,"udp":true,"password":"YWePoB69GG","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸💋Jooon💋2","type":"vmess","server":"38.63.0.90","port":47002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸💋Jooon💋3","type":"vmess","server":"107.167.29.37","port":52303,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸💋Jooon💋4","type":"vmess","server":"64.32.20.42","port":54042,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸💋Jooon💋5","type":"vmess","server":"107.167.16.34","port":45592,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸💋Jooon💋6","type":"vmess","server":"38.53.92.189","port":33002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵💋Jooon💋7","type":"ss","server":"54.199.41.65","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇸🇬💋Jooon💋8","type":"ss","server":"54.255.237.136","port":2333,"password":"doub.io","cipher":"aes-256-cfb"}
+  - {"name":"🇸🇬💋Jooon💋9","type":"ss","server":"13.212.54.104","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇯🇵💋Jooon💋10","type":"ss","server":"18.183.217.240","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸💋Jooon💋11","type":"vmess","server":"23.225.33.171","port":56662,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇦🇫💋Jooon💋12","type":"ss","server":"121.127.46.147","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸💋Jooon💋13","type":"vmess","server":"107.167.16.217","port":33589,"cipher":"auto","uuid":"8c679b81-84fc-43ce-9553-ddca575a6949","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸💋Jooon💋14","type":"vmess","server":"45.58.186.81","port":51140,"cipher":"auto","uuid":"4a138e19-0595-4d51-83c6-fd276cf7d307","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸💋Jooon💋15","type":"vmess","server":"107.167.16.85","port":45689,"cipher":"auto","uuid":"7640a1e7-9701-428e-a4b2-19b3e7dd6f9f","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇲💋Jooon💋16","type":"ss","server":"192.71.211.161","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸💋Jooon💋17","type":"vless","server":"mci-digiv2ray.ddns.net","port":2096,"uuid":"9546d3a6-1291-4120-f78b-b722fd0cca44","tls":true}
+  - {"name":"🇸🇪💋Jooon💋18","type":"vless","server":"sp4.kiava.fun","port":8443,"uuid":"725313ae-e979-48e5-eaba-39e8a9eb65fb","tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇪🇸💋Jooon💋19","type":"vless","server":"45.136.196.23","port":443,"uuid":"ItsLegenderyking","tls":true}
+  - {"name":"🇮🇷💋Jooon💋20","type":"vmess","server":"msifr.easytome.net","port":17497,"cipher":"auto","uuid":"3ab822e1-8f1e-4e8a-8517-6de45e57ab41","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
+  - {"name":"🇺🇸💋Jooon💋21","type":"ssr","server":"nsus.imytvps.com","port":5000,"password":"$$Turb0++VPN$$","cipher":"dummy","obfs":"http_simple","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸💋Jooon💋22","type":"ssr","server":"nsus.irundns.net","port":5000,"password":"$$Turb0++VPN$$","cipher":"dummy","obfs":"http_post","protocol":"auth_aes128_md5"}
+  - {"name":"🇮🇷💋Jooon💋23","type":"vmess","server":"msifr.easytome.net","port":17497,"cipher":"auto","uuid":"3ab822e1-8f1e-4e8a-8517-6de45e57ab41","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
+  - {"name":"🇩🇪💋Jooon💋24","type":"vless","server":"vsde2.pgafan.net","port":33622,"uuid":"f498014d-0135-4626-c259-c48d9b628a67","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇩🇪💋Jooon💋25","type":"ssr","server":"nsde.imytvps.com","port":5000,"password":"Jh+287UBAd@+","cipher":"dummy","obfs":"http_post","protocol":"auth_aes128_md5"}
+  - {"name":"🇳🇱💋Jooon💋26","type":"ssr","server":"nsnl5.imytvps.com","port":5000,"password":"$$Turb0+VN$$","cipher":"dummy","obfs":"http_post","protocol":"auth_aes128_md5"}
+  - {"name":"🇬🇧💋Jooon💋27","type":"ssr","server":"nsuk2.imytvps.com","port":5000,"password":"+TuRB0V9N++","cipher":"dummy","obfs":"http_simple","protocol":"auth_aes128_md5"}
+  - {"name":"🇩🇪💋Jooon💋28","type":"ssr","server":"nsde3.imytvps.com","port":5000,"password":"Jh+287UBAd@+","cipher":"dummy","obfs":"http_simple","protocol":"auth_aes128_md5"}
+  - {"name":"🇷🇴💋Jooon💋29","type":"vless","server":"vsro.pgafan.net","port":35247,"uuid":"83a760ae-7640-4a64-bca3-e00ec178df44","tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇫🇷💋Jooon💋30","type":"ssr","server":"51.38.89.134","port":5000,"password":"+TUR807PN++","cipher":"aes-128-cfb","obfs":"http_simple","protocol":"auth_aes128_md5"}
+  - {"name":"🇫🇮💋Jooon💋31","type":"vless","server":"msfi.easytome.net","port":35247,"uuid":"2b7390ae-767a-46da-9df9-0c88919e9b55","tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇳🇱💋Jooon💋32","type":"ssr","server":"nsnl.imytvps.com","port":5000,"password":"$$Turb0+VN$$","cipher":"dummy","obfs":"http_post","protocol":"auth_aes128_md5"}
+  - {"name":"🇫🇮💋Jooon💋33","type":"ssr","server":"nsfi.imytvps.com","port":443,"password":"+asd6a5s5df+","cipher":"aes-256-cfb","obfs":"http_post","protocol":"auth_aes128_md5"}
+  - {"name":"🇹🇷💋Jooon💋34","type":"ssr","server":"sstr.imytvps.com","port":443,"password":"+asd6a5s5df+","cipher":"aes-128-cfb","obfs":"http_post","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸💋Jooon💋35","type":"vless","server":"msus.easytome.net","port":35911,"uuid":"5621b36b-91ed-4a0e-92f9-8204a50cec7a","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸💋Jooon💋36","type":"ssr","server":"nsus.imytvps.com","port":5000,"password":"$$Turb0++VPN$$","cipher":"dummy","obfs":"http_simple","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸💋Jooon💋37","type":"ssr","server":"nsus.irundns.net","port":5000,"password":"$$Turb0++VPN$$","cipher":"dummy","obfs":"http_post","protocol":"auth_aes128_md5"}
+  - {"name":"🇨🇦💋Jooon💋38","type":"ssr","server":"ssca.imytvps.com","port":443,"password":"$$Turb0VPN$$","cipher":"aes-128-cfb","obfs":"http_post","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸💋Jooon💋39","type":"ssr","server":"nsus4.imytvps.com","port":5000,"password":"+asd6a5s5df+","cipher":"dummy","obfs":"http_simple","protocol":"auth_aes128_md5"}
+  - {"name":"🇩🇪💋Jooon💋40","type":"ssr","server":"nsus6.imytvps.com","port":5000,"password":"+asd6a5s5df+","cipher":"dummy","obfs":"http_post","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸💋Jooon💋41","type":"ssr","server":"nsus5.imytvps.com","port":5000,"password":"BVga$@jah+","cipher":"dummy","obfs":"http_simple","protocol":"auth_aes128_md5"}
+  - {"name":"🇮🇷💋Jooon💋42","type":"vless","server":"mside3.easytome.net","port":39463,"uuid":"07cc3ca8-d96b-4c4a-8b96-db0eb65ca4cf","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇩🇪💋Jooon💋43","type":"vless","server":"msus2.easytome.net","port":20778,"uuid":"f6e3a797-1342-4d5d-e9f5-4664e954407c","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇬🇧💋Jooon💋44","type":"vless","server":"msuk.easytome.net","port":22109,"uuid":"2db0b2a3-9cc7-43fe-f07a-9e6d7604392e","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇩🇪💋Jooon💋45","type":"vless","server":"websde.pgafan.net","port":16847,"uuid":"9da12124-6657-44f8-9349-2f6b80a7f065","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇩🇪💋Jooon💋46","type":"ssr","server":"nsde2.imytvps.com","port":443,"password":"+asd6a5s5df+","cipher":"dummy","obfs":"http_simple","protocol":"auth_aes128_md5"}
+  - {"name":"🇹🇷💋Jooon💋47","type":"ssr","server":"nstr2.imytvps.com","port":5000,"password":"JHs65%$hasd","cipher":"dummy","obfs":"http_simple","protocol":"auth_aes128_md5"}
+  - {"name":"🇹🇷💋Jooon💋48","type":"ssr","server":"nstr2.imytvps.com","port":443,"password":"JHs65%$hasd","cipher":"aes-256-cfb","obfs":"http_post","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸💋Jooon💋49","type":"ssr","server":"nsus3.imytvps.com","port":443,"password":"+asd6a5s5df+","cipher":"aes-128-cfb","obfs":"http_post","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸💋Jooon💋50","type":"ssr","server":"nsus3.imytvps.com","port":443,"password":"+asd6a5s5df+","cipher":"aes-128-cfb","obfs":"http_post","protocol":"auth_aes128_md5"}
+  - {"name":"🇺🇸💋Jooon💋51","type":"ssr","server":"nsus2.imytvps.com","port":5000,"password":"TuRB0V9N++","cipher":"dummy","obfs":"http_simple","protocol":"auth_aes128_md5"}
+  - {"name":"🇷🇺💋Jooon💋52","type":"ssr","server":"nsru.imytvps.com","port":5000,"password":"^$%jdvTF54#","cipher":"dummy","obfs":"http_simple","protocol":"auth_aes128_md5"}
+  - {"name":"🇬🇧💋Jooon💋53","type":"ssr","server":"nsuk.imytvps.com","port":5000,"password":"$$Turb0VPN+$$","cipher":"aes-128-cfb","obfs":"http_simple","protocol":"auth_aes128_md5"}
+  - {"name":"🇬🇧💋Jooon💋54","type":"ssr","server":"nsuk3.imytvps.com","port":443,"password":"5FYhn96@+Kj","cipher":"aes-128-cfb","obfs":"http_post","protocol":"auth_aes128_md5"}
+  - {"name":"🇳🇱💋Jooon💋55","type":"ssr","server":"nsnl2.imytvps.com","port":5000,"password":"JH52ht21+#sad","cipher":"dummy","obfs":"http_simple","protocol":"auth_aes128_md5"}
+  - {"name":"🇳🇱💋Jooon💋56","type":"ssr","server":"nsnl2.imytvps.com","port":5000,"password":"JH52ht21+#sad","cipher":"aes-128-cfb","obfs":"http_post","protocol":"auth_aes128_md5"}
+  - {"name":"🇳🇱💋Jooon💋57","type":"ssr","server":"nsnl3.imytvps.com","port":5000,"password":"KhTvf+@j5s4+","cipher":"dummy","obfs":"http_post","protocol":"auth_aes128_md5"}
+  - {"name":"🏳️‍🌈💋Jooon💋58","type":"ssr","server":"nsfr.imytvps.com","port":5000,"password":"+TUR807PN++","cipher":"aes-128-cfb","obfs":"http_post","protocol":"auth_aes128_md5"}
+  - {"name":"🇮🇷💋Jooon💋59","type":"vmess","server":"msifr.easytome.net","port":17497,"cipher":"auto","uuid":"3ab822e1-8f1e-4e8a-8517-6de45e57ab41","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ok 100_2
-      - Tavakoli.Vip86
-      - ok 100
+      - 🇺🇸💋Jooon💋1
+      - 🇺🇸💋Jooon💋2
+      - 🇺🇸💋Jooon💋3
+      - 🇺🇸💋Jooon💋4
+      - 🇺🇸💋Jooon💋5
+      - 🇺🇸💋Jooon💋6
+      - 🇯🇵💋Jooon💋7
+      - 🇸🇬💋Jooon💋8
+      - 🇸🇬💋Jooon💋9
+      - 🇯🇵💋Jooon💋10
+      - 🇺🇸💋Jooon💋11
+      - 🇦🇫💋Jooon💋12
+      - 🇺🇸💋Jooon💋13
+      - 🇺🇸💋Jooon💋14
+      - 🇺🇸💋Jooon💋15
+      - 🇮🇲💋Jooon💋16
+      - 🇺🇸💋Jooon💋17
+      - 🇸🇪💋Jooon💋18
+      - 🇪🇸💋Jooon💋19
+      - 🇮🇷💋Jooon💋20
+      - 🇺🇸💋Jooon💋21
+      - 🇺🇸💋Jooon💋22
+      - 🇮🇷💋Jooon💋23
+      - 🇩🇪💋Jooon💋24
+      - 🇩🇪💋Jooon💋25
+      - 🇳🇱💋Jooon💋26
+      - 🇬🇧💋Jooon💋27
+      - 🇩🇪💋Jooon💋28
+      - 🇷🇴💋Jooon💋29
+      - 🇫🇷💋Jooon💋30
+      - 🇫🇮💋Jooon💋31
+      - 🇳🇱💋Jooon💋32
+      - 🇫🇮💋Jooon💋33
+      - 🇹🇷💋Jooon💋34
+      - 🇺🇸💋Jooon💋35
+      - 🇺🇸💋Jooon💋36
+      - 🇺🇸💋Jooon💋37
+      - 🇨🇦💋Jooon💋38
+      - 🇺🇸💋Jooon💋39
+      - 🇩🇪💋Jooon💋40
+      - 🇺🇸💋Jooon💋41
+      - 🇮🇷💋Jooon💋42
+      - 🇩🇪💋Jooon💋43
+      - 🇬🇧💋Jooon💋44
+      - 🇩🇪💋Jooon💋45
+      - 🇩🇪💋Jooon💋46
+      - 🇹🇷💋Jooon💋47
+      - 🇹🇷💋Jooon💋48
+      - 🇺🇸💋Jooon💋49
+      - 🇺🇸💋Jooon💋50
+      - 🇺🇸💋Jooon💋51
+      - 🇷🇺💋Jooon💋52
+      - 🇬🇧💋Jooon💋53
+      - 🇬🇧💋Jooon💋54
+      - 🇳🇱💋Jooon💋55
+      - 🇳🇱💋Jooon💋56
+      - 🇳🇱💋Jooon💋57
+      - 🏳️‍🌈💋Jooon💋58
+      - 🇮🇷💋Jooon💋59
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ok 100_2
-      - Tavakoli.Vip86
-      - ok 100
+      - 🇺🇸💋Jooon💋1
+      - 🇺🇸💋Jooon💋2
+      - 🇺🇸💋Jooon💋3
+      - 🇺🇸💋Jooon💋4
+      - 🇺🇸💋Jooon💋5
+      - 🇺🇸💋Jooon💋6
+      - 🇯🇵💋Jooon💋7
+      - 🇸🇬💋Jooon💋8
+      - 🇸🇬💋Jooon💋9
+      - 🇯🇵💋Jooon💋10
+      - 🇺🇸💋Jooon💋11
+      - 🇦🇫💋Jooon💋12
+      - 🇺🇸💋Jooon💋13
+      - 🇺🇸💋Jooon💋14
+      - 🇺🇸💋Jooon💋15
+      - 🇮🇲💋Jooon💋16
+      - 🇺🇸💋Jooon💋17
+      - 🇸🇪💋Jooon💋18
+      - 🇪🇸💋Jooon💋19
+      - 🇮🇷💋Jooon💋20
+      - 🇺🇸💋Jooon💋21
+      - 🇺🇸💋Jooon💋22
+      - 🇮🇷💋Jooon💋23
+      - 🇩🇪💋Jooon💋24
+      - 🇩🇪💋Jooon💋25
+      - 🇳🇱💋Jooon💋26
+      - 🇬🇧💋Jooon💋27
+      - 🇩🇪💋Jooon💋28
+      - 🇷🇴💋Jooon💋29
+      - 🇫🇷💋Jooon💋30
+      - 🇫🇮💋Jooon💋31
+      - 🇳🇱💋Jooon💋32
+      - 🇫🇮💋Jooon💋33
+      - 🇹🇷💋Jooon💋34
+      - 🇺🇸💋Jooon💋35
+      - 🇺🇸💋Jooon💋36
+      - 🇺🇸💋Jooon💋37
+      - 🇨🇦💋Jooon💋38
+      - 🇺🇸💋Jooon💋39
+      - 🇩🇪💋Jooon💋40
+      - 🇺🇸💋Jooon💋41
+      - 🇮🇷💋Jooon💋42
+      - 🇩🇪💋Jooon💋43
+      - 🇬🇧💋Jooon💋44
+      - 🇩🇪💋Jooon💋45
+      - 🇩🇪💋Jooon💋46
+      - 🇹🇷💋Jooon💋47
+      - 🇹🇷💋Jooon💋48
+      - 🇺🇸💋Jooon💋49
+      - 🇺🇸💋Jooon💋50
+      - 🇺🇸💋Jooon💋51
+      - 🇷🇺💋Jooon💋52
+      - 🇬🇧💋Jooon💋53
+      - 🇬🇧💋Jooon💋54
+      - 🇳🇱💋Jooon💋55
+      - 🇳🇱💋Jooon💋56
+      - 🇳🇱💋Jooon💋57
+      - 🏳️‍🌈💋Jooon💋58
+      - 🇮🇷💋Jooon💋59
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ok 100_2
-      - Tavakoli.Vip86
-      - ok 100
+      - 🇺🇸💋Jooon💋1
+      - 🇺🇸💋Jooon💋2
+      - 🇺🇸💋Jooon💋3
+      - 🇺🇸💋Jooon💋4
+      - 🇺🇸💋Jooon💋5
+      - 🇺🇸💋Jooon💋6
+      - 🇯🇵💋Jooon💋7
+      - 🇸🇬💋Jooon💋8
+      - 🇸🇬💋Jooon💋9
+      - 🇯🇵💋Jooon💋10
+      - 🇺🇸💋Jooon💋11
+      - 🇦🇫💋Jooon💋12
+      - 🇺🇸💋Jooon💋13
+      - 🇺🇸💋Jooon💋14
+      - 🇺🇸💋Jooon💋15
+      - 🇮🇲💋Jooon💋16
+      - 🇺🇸💋Jooon💋17
+      - 🇸🇪💋Jooon💋18
+      - 🇪🇸💋Jooon💋19
+      - 🇮🇷💋Jooon💋20
+      - 🇺🇸💋Jooon💋21
+      - 🇺🇸💋Jooon💋22
+      - 🇮🇷💋Jooon💋23
+      - 🇩🇪💋Jooon💋24
+      - 🇩🇪💋Jooon💋25
+      - 🇳🇱💋Jooon💋26
+      - 🇬🇧💋Jooon💋27
+      - 🇩🇪💋Jooon💋28
+      - 🇷🇴💋Jooon💋29
+      - 🇫🇷💋Jooon💋30
+      - 🇫🇮💋Jooon💋31
+      - 🇳🇱💋Jooon💋32
+      - 🇫🇮💋Jooon💋33
+      - 🇹🇷💋Jooon💋34
+      - 🇺🇸💋Jooon💋35
+      - 🇺🇸💋Jooon💋36
+      - 🇺🇸💋Jooon💋37
+      - 🇨🇦💋Jooon💋38
+      - 🇺🇸💋Jooon💋39
+      - 🇩🇪💋Jooon💋40
+      - 🇺🇸💋Jooon💋41
+      - 🇮🇷💋Jooon💋42
+      - 🇩🇪💋Jooon💋43
+      - 🇬🇧💋Jooon💋44
+      - 🇩🇪💋Jooon💋45
+      - 🇩🇪💋Jooon💋46
+      - 🇹🇷💋Jooon💋47
+      - 🇹🇷💋Jooon💋48
+      - 🇺🇸💋Jooon💋49
+      - 🇺🇸💋Jooon💋50
+      - 🇺🇸💋Jooon💋51
+      - 🇷🇺💋Jooon💋52
+      - 🇬🇧💋Jooon💋53
+      - 🇬🇧💋Jooon💋54
+      - 🇳🇱💋Jooon💋55
+      - 🇳🇱💋Jooon💋56
+      - 🇳🇱💋Jooon💋57
+      - 🏳️‍🌈💋Jooon💋58
+      - 🇮🇷💋Jooon💋59
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ok 100_2
-      - Tavakoli.Vip86
-      - ok 100
+      - 🇺🇸💋Jooon💋1
+      - 🇺🇸💋Jooon💋2
+      - 🇺🇸💋Jooon💋3
+      - 🇺🇸💋Jooon💋4
+      - 🇺🇸💋Jooon💋5
+      - 🇺🇸💋Jooon💋6
+      - 🇯🇵💋Jooon💋7
+      - 🇸🇬💋Jooon💋8
+      - 🇸🇬💋Jooon💋9
+      - 🇯🇵💋Jooon💋10
+      - 🇺🇸💋Jooon💋11
+      - 🇦🇫💋Jooon💋12
+      - 🇺🇸💋Jooon💋13
+      - 🇺🇸💋Jooon💋14
+      - 🇺🇸💋Jooon💋15
+      - 🇮🇲💋Jooon💋16
+      - 🇺🇸💋Jooon💋17
+      - 🇸🇪💋Jooon💋18
+      - 🇪🇸💋Jooon💋19
+      - 🇮🇷💋Jooon💋20
+      - 🇺🇸💋Jooon💋21
+      - 🇺🇸💋Jooon💋22
+      - 🇮🇷💋Jooon💋23
+      - 🇩🇪💋Jooon💋24
+      - 🇩🇪💋Jooon💋25
+      - 🇳🇱💋Jooon💋26
+      - 🇬🇧💋Jooon💋27
+      - 🇩🇪💋Jooon💋28
+      - 🇷🇴💋Jooon💋29
+      - 🇫🇷💋Jooon💋30
+      - 🇫🇮💋Jooon💋31
+      - 🇳🇱💋Jooon💋32
+      - 🇫🇮💋Jooon💋33
+      - 🇹🇷💋Jooon💋34
+      - 🇺🇸💋Jooon💋35
+      - 🇺🇸💋Jooon💋36
+      - 🇺🇸💋Jooon💋37
+      - 🇨🇦💋Jooon💋38
+      - 🇺🇸💋Jooon💋39
+      - 🇩🇪💋Jooon💋40
+      - 🇺🇸💋Jooon💋41
+      - 🇮🇷💋Jooon💋42
+      - 🇩🇪💋Jooon💋43
+      - 🇬🇧💋Jooon💋44
+      - 🇩🇪💋Jooon💋45
+      - 🇩🇪💋Jooon💋46
+      - 🇹🇷💋Jooon💋47
+      - 🇹🇷💋Jooon💋48
+      - 🇺🇸💋Jooon💋49
+      - 🇺🇸💋Jooon💋50
+      - 🇺🇸💋Jooon💋51
+      - 🇷🇺💋Jooon💋52
+      - 🇬🇧💋Jooon💋53
+      - 🇬🇧💋Jooon💋54
+      - 🇳🇱💋Jooon💋55
+      - 🇳🇱💋Jooon💋56
+      - 🇳🇱💋Jooon💋57
+      - 🏳️‍🌈💋Jooon💋58
+      - 🇮🇷💋Jooon💋59
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ok 100_2
-      - Tavakoli.Vip86
-      - ok 100
+      - 🇺🇸💋Jooon💋1
+      - 🇺🇸💋Jooon💋2
+      - 🇺🇸💋Jooon💋3
+      - 🇺🇸💋Jooon💋4
+      - 🇺🇸💋Jooon💋5
+      - 🇺🇸💋Jooon💋6
+      - 🇯🇵💋Jooon💋7
+      - 🇸🇬💋Jooon💋8
+      - 🇸🇬💋Jooon💋9
+      - 🇯🇵💋Jooon💋10
+      - 🇺🇸💋Jooon💋11
+      - 🇦🇫💋Jooon💋12
+      - 🇺🇸💋Jooon💋13
+      - 🇺🇸💋Jooon💋14
+      - 🇺🇸💋Jooon💋15
+      - 🇮🇲💋Jooon💋16
+      - 🇺🇸💋Jooon💋17
+      - 🇸🇪💋Jooon💋18
+      - 🇪🇸💋Jooon💋19
+      - 🇮🇷💋Jooon💋20
+      - 🇺🇸💋Jooon💋21
+      - 🇺🇸💋Jooon💋22
+      - 🇮🇷💋Jooon💋23
+      - 🇩🇪💋Jooon💋24
+      - 🇩🇪💋Jooon💋25
+      - 🇳🇱💋Jooon💋26
+      - 🇬🇧💋Jooon💋27
+      - 🇩🇪💋Jooon💋28
+      - 🇷🇴💋Jooon💋29
+      - 🇫🇷💋Jooon💋30
+      - 🇫🇮💋Jooon💋31
+      - 🇳🇱💋Jooon💋32
+      - 🇫🇮💋Jooon💋33
+      - 🇹🇷💋Jooon💋34
+      - 🇺🇸💋Jooon💋35
+      - 🇺🇸💋Jooon💋36
+      - 🇺🇸💋Jooon💋37
+      - 🇨🇦💋Jooon💋38
+      - 🇺🇸💋Jooon💋39
+      - 🇩🇪💋Jooon💋40
+      - 🇺🇸💋Jooon💋41
+      - 🇮🇷💋Jooon💋42
+      - 🇩🇪💋Jooon💋43
+      - 🇬🇧💋Jooon💋44
+      - 🇩🇪💋Jooon💋45
+      - 🇩🇪💋Jooon💋46
+      - 🇹🇷💋Jooon💋47
+      - 🇹🇷💋Jooon💋48
+      - 🇺🇸💋Jooon💋49
+      - 🇺🇸💋Jooon💋50
+      - 🇺🇸💋Jooon💋51
+      - 🇷🇺💋Jooon💋52
+      - 🇬🇧💋Jooon💋53
+      - 🇬🇧💋Jooon💋54
+      - 🇳🇱💋Jooon💋55
+      - 🇳🇱💋Jooon💋56
+      - 🇳🇱💋Jooon💋57
+      - 🏳️‍🌈💋Jooon💋58
+      - 🇮🇷💋Jooon💋59
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ok 100_2
-      - Tavakoli.Vip86
-      - ok 100
+      - 🇺🇸💋Jooon💋1
+      - 🇺🇸💋Jooon💋2
+      - 🇺🇸💋Jooon💋3
+      - 🇺🇸💋Jooon💋4
+      - 🇺🇸💋Jooon💋5
+      - 🇺🇸💋Jooon💋6
+      - 🇯🇵💋Jooon💋7
+      - 🇸🇬💋Jooon💋8
+      - 🇸🇬💋Jooon💋9
+      - 🇯🇵💋Jooon💋10
+      - 🇺🇸💋Jooon💋11
+      - 🇦🇫💋Jooon💋12
+      - 🇺🇸💋Jooon💋13
+      - 🇺🇸💋Jooon💋14
+      - 🇺🇸💋Jooon💋15
+      - 🇮🇲💋Jooon💋16
+      - 🇺🇸💋Jooon💋17
+      - 🇸🇪💋Jooon💋18
+      - 🇪🇸💋Jooon💋19
+      - 🇮🇷💋Jooon💋20
+      - 🇺🇸💋Jooon💋21
+      - 🇺🇸💋Jooon💋22
+      - 🇮🇷💋Jooon💋23
+      - 🇩🇪💋Jooon💋24
+      - 🇩🇪💋Jooon💋25
+      - 🇳🇱💋Jooon💋26
+      - 🇬🇧💋Jooon💋27
+      - 🇩🇪💋Jooon💋28
+      - 🇷🇴💋Jooon💋29
+      - 🇫🇷💋Jooon💋30
+      - 🇫🇮💋Jooon💋31
+      - 🇳🇱💋Jooon💋32
+      - 🇫🇮💋Jooon💋33
+      - 🇹🇷💋Jooon💋34
+      - 🇺🇸💋Jooon💋35
+      - 🇺🇸💋Jooon💋36
+      - 🇺🇸💋Jooon💋37
+      - 🇨🇦💋Jooon💋38
+      - 🇺🇸💋Jooon💋39
+      - 🇩🇪💋Jooon💋40
+      - 🇺🇸💋Jooon💋41
+      - 🇮🇷💋Jooon💋42
+      - 🇩🇪💋Jooon💋43
+      - 🇬🇧💋Jooon💋44
+      - 🇩🇪💋Jooon💋45
+      - 🇩🇪💋Jooon💋46
+      - 🇹🇷💋Jooon💋47
+      - 🇹🇷💋Jooon💋48
+      - 🇺🇸💋Jooon💋49
+      - 🇺🇸💋Jooon💋50
+      - 🇺🇸💋Jooon💋51
+      - 🇷🇺💋Jooon💋52
+      - 🇬🇧💋Jooon💋53
+      - 🇬🇧💋Jooon💋54
+      - 🇳🇱💋Jooon💋55
+      - 🇳🇱💋Jooon💋56
+      - 🇳🇱💋Jooon💋57
+      - 🏳️‍🌈💋Jooon💋58
+      - 🇮🇷💋Jooon💋59
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -97,9 +490,65 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ok 100_2
-      - Tavakoli.Vip86
-      - ok 100
+      - 🇺🇸💋Jooon💋1
+      - 🇺🇸💋Jooon💋2
+      - 🇺🇸💋Jooon💋3
+      - 🇺🇸💋Jooon💋4
+      - 🇺🇸💋Jooon💋5
+      - 🇺🇸💋Jooon💋6
+      - 🇯🇵💋Jooon💋7
+      - 🇸🇬💋Jooon💋8
+      - 🇸🇬💋Jooon💋9
+      - 🇯🇵💋Jooon💋10
+      - 🇺🇸💋Jooon💋11
+      - 🇦🇫💋Jooon💋12
+      - 🇺🇸💋Jooon💋13
+      - 🇺🇸💋Jooon💋14
+      - 🇺🇸💋Jooon💋15
+      - 🇮🇲💋Jooon💋16
+      - 🇺🇸💋Jooon💋17
+      - 🇸🇪💋Jooon💋18
+      - 🇪🇸💋Jooon💋19
+      - 🇮🇷💋Jooon💋20
+      - 🇺🇸💋Jooon💋21
+      - 🇺🇸💋Jooon💋22
+      - 🇮🇷💋Jooon💋23
+      - 🇩🇪💋Jooon💋24
+      - 🇩🇪💋Jooon💋25
+      - 🇳🇱💋Jooon💋26
+      - 🇬🇧💋Jooon💋27
+      - 🇩🇪💋Jooon💋28
+      - 🇷🇴💋Jooon💋29
+      - 🇫🇷💋Jooon💋30
+      - 🇫🇮💋Jooon💋31
+      - 🇳🇱💋Jooon💋32
+      - 🇫🇮💋Jooon💋33
+      - 🇹🇷💋Jooon💋34
+      - 🇺🇸💋Jooon💋35
+      - 🇺🇸💋Jooon💋36
+      - 🇺🇸💋Jooon💋37
+      - 🇨🇦💋Jooon💋38
+      - 🇺🇸💋Jooon💋39
+      - 🇩🇪💋Jooon💋40
+      - 🇺🇸💋Jooon💋41
+      - 🇮🇷💋Jooon💋42
+      - 🇩🇪💋Jooon💋43
+      - 🇬🇧💋Jooon💋44
+      - 🇩🇪💋Jooon💋45
+      - 🇩🇪💋Jooon💋46
+      - 🇹🇷💋Jooon💋47
+      - 🇹🇷💋Jooon💋48
+      - 🇺🇸💋Jooon💋49
+      - 🇺🇸💋Jooon💋50
+      - 🇺🇸💋Jooon💋51
+      - 🇷🇺💋Jooon💋52
+      - 🇬🇧💋Jooon💋53
+      - 🇬🇧💋Jooon💋54
+      - 🇳🇱💋Jooon💋55
+      - 🇳🇱💋Jooon💋56
+      - 🇳🇱💋Jooon💋57
+      - 🏳️‍🌈💋Jooon💋58
+      - 🇮🇷💋Jooon💋59
 
 rules:
 # 本地/局域网地址
