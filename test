@@ -1,1 +1,366 @@
-dm1lc3M6Ly9leUoySWpvaU1pSXNJbkJ6SWpvaWRtMWxjM010WWpKbWFUaGhabW9pTENKaFpHUWlPaUp0YzI1c01TNWxZWE41ZEc5dFpTNXVaWFFpTENKd2IzSjBJam80TUN3aWFXUWlPaUl4TTJGak9HSmhZaTB6TmpFd0xUUXhaR0V0WW1ZMU5TMDJNak0yT1RFd1pqUTBOMklpTENKaGFXUWlPakFzSW5OamVTSTZJbUYxZEc4aUxDSnVaWFFpT2lKMFkzQWlMQ0owYkhNaU9pSWlmUT09CnZtZXNzOi8vZXlKMklqb2lNaUlzSW5Ceklqb2lkbTFsYzNNaUxDSmhaR1FpT2lKdGMybGtaVEl1WldGemVYUnZiV1V1Ym1WMElpd2ljRzl5ZENJNk1UYzRNVFlzSW1sa0lqb2lZMlV3TVRZd1lUVXROMlUyWmkwME9EUmhMV1k0WVRBdFptRTROV00wWldFd05HUmlJaXdpWVdsa0lqb3dMQ0p6WTNraU9pSmhkWFJ2SWl3aWJtVjBJam9pZDNNaUxDSndZWFJvSWpvaUx5SXNJblJzY3lJNklpSjkKdmxlc3M6Ly8yMzk5MDRiZS0wODkxLTQzYzUtYTlmNS1mZmQyOTljYTExM2NAbXNmaW4uZWFzeXRvbWUubmV0OjgwP3NlY3VyaXR5PW5vbmUmdHlwZT10Y3Amc25pPWZhc3QuY29tJmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUjdmxlc3Nfbm9ybWFsLXdzMGxvMzJ6JTBECnZsZXNzOi8vNTYyMWIzNmItOTFlZC00YTBlLTkyZjktODIwNGE1MGNlYzdhQG1zdXMuZWFzeXRvbWUubmV0OjM1OTExP3NlY3VyaXR5PW5vbmUmdHlwZT13cyZwYXRoPS8mZW5jcnlwdGlvbj1ub25lJmhlYWRlclR5cGU9bm9uZSN2bGVzcyUwRAp2bGVzczovLzhjMWRjMTgwLTc5ODgtNDdmZC05MjI4LTY5YWYxOTdmZDE4ZkBtc2lmci5lYXN5dG9tZS5uZXQ6ODA4MD9zZWN1cml0eT1ub25lJnR5cGU9dGNwJnNuaT10ZWxld2ViaW9uLmNvbSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lI3ZMZXNzLVRDUC10dXJibyUwRAp2bGVzczovLzg5NzQ3ZDFkLWE0N2ItNGNmYi1hNjdmLTRiMzA1ZjA3NzU3OUBzaWRlMi5heWFuaG9zdC5jb206ODA4MT9zZWN1cml0eT1ub25lJnR5cGU9dGNwJnNuaT1mYXN0LmNvbSZlbmNyeXB0aW9uPW5vbmUmaGVhZGVyVHlwZT1ub25lI1ZMRVNTMi1nZDB2eGxicCUwRAp2bGVzczovLzA0ZjE2YmE5LWY0NmItNDg3MS04ZjYyLWRlYTc2Y2U0YWVlY0Btc3RyLmVhc3l0b21lLm5ldDo4MDgxP3NlY3VyaXR5PW5vbmUmdHlwZT10Y3Amc25pPWZhc3QuY29tJmVuY3J5cHRpb249bm9uZSZoZWFkZXJUeXBlPW5vbmUjdmxlc3Nfbm9ybWFsLTkxZGl3NmFqJTBECnNzcjovL2JuTjFhekl1YVhKMWJtUnVjeTV1WlhRNk5UQXdNRHBoZFhSb1gyRmxjekV5T0Y5dFpEVTZZWFYwYnpwb2RIUndYM05wYlhCc1pUcExNVkl4Vld0SmQxWnFiRTlMZVhNOUx6OXlaVzFoY210elBWcEhWbTFaV0ZaelpFVTFhR0pYVm1aTlVUMDlKbWR5YjNWd1BWSkhWbTFaV0ZaelpFTkNTR050T1RGalFUMDkKc3NyOi8vYm5ObWNqSXVhWEoxYm1SdWN5NXVaWFE2TlRBd01EcGhkWFJvWDJGbGN6RXlPRjl0WkRVNllYVjBienBvZEhSd1gzTnBiWEJzWlRwTE1WSldWV3BuZDA0eFFrOUxlWE05THo5eVpXMWhjbXR6UFZwSFZtMVpXRlp6WkVVMWFHSlhWbVpOWnowOUptZHliM1Z3UFZKSFZtMVpXRlp6WkVOQ1NHTnRPVEZqUVQwOQpzc3I6Ly9ibk4xYXk1cGNuVnVaRzV6TG01bGREbzFNREF3T21GMWRHaGZZV1Z6TVRJNFgyMWtOVHBoZFhSdk9taDBkSEJmYzJsdGNHeGxPa3BEVWxWa1dFcHBUVVphVVZScGMydEtRVDA5THo5eVpXMWhjbXR6UFZwSFZtMVpXRlp6WkVVMWFHSlhWbVpOZHowOUptZHliM1Z3UFZKSFZtMVpXRlp6WkVOQ1NHTnRPVEZqUVQwOQpzc3I6Ly9ibk4xY3k1cGNuVnVaRzV6TG01bGREbzFNREF3T21GMWRHaGZZV1Z6TVRJNFgyMWtOVHBoZFhSdk9taDBkSEJmYzJsdGNHeGxPa3BEVWxWa1dFcHBUVU56Y2xac1FrOUtRMUU5THo5eVpXMWhjbXR6UFZwSFZtMVpXRlp6WkVVMWFHSlhWbVpPUVQwOUptZHliM1Z3UFZKSFZtMVpXRlp6WkVOQ1NHTnRPVEZqUVQwOQpzc3I6Ly9ibk5rWlRRdWFYSjFibVJ1Y3k1dVpYUTZOVEF3TURwaGRYUm9YMkZsY3pFeU9GOXRaRFU2WVhWMGJ6cG9kSFJ3WDNCdmMzUTZTekpHZWxwRVdtaE9XRTB4V2tkWmNpOC9jbVZ0WVhKcmN6MWFSMVp0V1ZoV2MyUkZOV2hpVjFabVRsRTlQU1puY205MWNEMVNSMVp0V1ZoV2MyUkRRa2hqYlRreFkwRTlQUT09CnNzcjovL2JuTjFjell1YVhKMWJtUnVjeTV1WlhRNk5UQXdNRHBoZFhSb1gyRmxjekV5T0Y5dFpEVTZZWFYwYnpwb2RIUndYM0J2YzNRNlN6SkdlbHBFV21oT1dFMHhXa2RaY2k4L2NtVnRZWEpyY3oxYVIxWnRXVmhXYzJSRk5XaGlWMVptVG1jOVBTWm5jbTkxY0QxU1IxWnRXVmhXYzJSRFFraGpiVGt4WTBFOVBRPT0Kc3NyOi8vYm5OMWN6WXVhWEoxYm1SdWN5NXVaWFE2TlRBd01EcGhkWFJvWDJGbGN6RXlPRjl0WkRVNllYVjBienBvZEhSd1gzQnZjM1E2U3pKR2VscEVXbWhPV0UweFdrZFpjaTgvY21WdFlYSnJjejFhUjFadFdWaFdjMlJGTldoaVYxWm1UbmM5UFNabmNtOTFjRDFTUjFadFdWaFdjMlJEUWtoamJUa3hZMEU5UFE9PQpzc3I6Ly9ibk4xY3pVdWFYSjFibVJ1Y3k1dVpYUTZOVEF3TURwaGRYUm9YMkZsY3pFeU9GOXRaRFU2WVhWMGJ6cG9kSFJ3WDNOcGJYQnNaVHBSYkZwdVdWTlNRV0Z0Um05TGR6MDlMejl5WlcxaGNtdHpQVnBIVm0xWldGWnpaRVUxYUdKWFZtWlBRVDA5Sm1keWIzVndQVkpIVm0xWldGWnpaRU5DU0dOdE9URmpRVDA5CnNzcjovL2JuTmtaVE11YVhKMWJtUnVjeTV1WlhRNk5UQXdNRHBoZFhSb1gyRmxjekV5T0Y5dFpEVTZZWFYwYnpwb2RIUndYM05wYlhCc1pUcFRiV2R5VFdwbk0xWlZTa0phUlVGeUx6OXlaVzFoY210elBWcEhWbTFaV0ZaelpFVTFhR0pYVm1aUFVUMDlKbWR5YjNWd1BWSkhWbTFaV0ZaelpFTkNTR050T1RGalFUMDkKc3NyOi8vYm5OdWJEVXVhWEoxYm1SdWN5NXVaWFE2TlRBd01EcGhkWFJvWDJGbGN6RXlPRjl0WkRVNllYVjBienBvZEhSd1gzQnZjM1E2U2tOU1ZXUllTbWxOUTNSWFZHbFJheTgvY21WdFlYSnJjejFhUjFadFdWaFdjMlJGTldoaVYxWm1UVlJCUFNabmNtOTFjRDFTUjFadFdWaFdjMlJEUWtoamJUa3hZMEU5UFE9PQpzc3I6Ly9ibk4xY3pRdWFYSjFibVJ1Y3k1dVpYUTZOVEF3TURwaGRYUm9YMkZsY3pFeU9GOXRaRFU2WVhWMGJ6cG9kSFJ3WDNOcGJYQnNaVHBMTWtaNldrUmFhRTVZVFRGYVIxbHlMejl5WlcxaGNtdHpQVnBIVm0xWldGWnpaRVUxYUdKWFZtWk5WRVU5Sm1keWIzVndQVkpIVm0xWldGWnpaRU5DU0dOdE9URmpRVDA5CnNzcjovL2MzTjBjaTVwY25WdVpHNXpMbTVsZERvME5ETTZZWFYwYUY5aFpYTXhNamhmYldRMU9tRmxjeTB4TWpndFkyWmlPbWgwZEhCZmNHOXpkRHBMTWtaNldrUmFhRTVZVFRGYVIxbHlMejl5WlcxaGNtdHpQVnBIVm0xWldGWnpaRVUxYUdKWFZtWk5WRWs5Sm1keWIzVndQVkpIVm0xWldGWnpaRU5DU0dOdE9URmpRVDA5CnNzcjovL2JuTjFjek11YVhKMWJtUnVjeTV1WlhRNk5UQXdNRHBoZFhSb1gyRmxjekV5T0Y5dFpEVTZZV1Z6TFRFeU9DMWpabUk2YUhSMGNGOXdiM04wT2tzeVJucGFSRnBvVGxoTk1WcEhXWEl2UDNKbGJXRnlhM005V2tkV2JWbFlWbk5rUlRWb1lsZFdaazFVVFQwbVozSnZkWEE5VWtkV2JWbFlWbk5rUTBKSVkyMDVNV05CUFQwPQpzc3I6Ly9jM05qWVM1cGNuVnVaRzV6TG01bGREbzBORE02WVhWMGFGOWhaWE14TWpoZmJXUTFPbUZsY3kweE1qZ3RZMlppT21oMGRIQmZjRzl6ZERwS1ExSlZaRmhLYVUxR1dsRlVhVkZyTHo5eVpXMWhjbXR6UFZwSFZtMVpXRlp6WkVVMWFHSlhWbVpOVkZFOUptZHliM1Z3UFZKSFZtMVpXRlp6WkVOQ1NHTnRPVEZqUVQwOQpzc3I6Ly9ibk5tY2pNdWFYSjFibVJ1Y3k1dVpYUTZOVEF3TURwaGRYUm9YMkZsY3pFeU9GOXRaRFU2WVhWMGJ6cG9kSFJ3WDNOcGJYQnNaVHBMTVZKV1ZXcG5kMDR4UWs5TGVYTTlMejl5WlcxaGNtdHpQVnBIVm0xWldGWnpaRVUxYUdKWFZtWk5WRlU5Sm1keWIzVndQVkpIVm0xWldGWnpaRU5DU0dOdE9URmpRVDA5CnNzcjovL2JuTmtaUzVwY25WdVpHNXpMbTVsZERvMU1EQXdPbUYxZEdoZllXVnpNVEk0WDIxa05UcGhkWFJ2T21oMGRIQmZjRzl6ZERwVGJXZHlUV3BuTTFaVlNrSmFSVUZ5THo5eVpXMWhjbXR6UFZwSFZtMVpXRlp6WkVVMWFHSlhWbVpOVkZrOUptZHliM1Z3UFZKSFZtMVpXRlp6WkVOQ1NHTnRPVEZqUVQwOQpzc3I6Ly9ibk51YkM1cGNuVnVaRzV6TG01bGREbzFNREF3T21GMWRHaGZZV1Z6TVRJNFgyMWtOVHBoZFhSdk9taDBkSEJmY0c5emREcEtRMUpWWkZoS2FVMURkRmRVYVZGckx6OXlaVzFoY210elBWcEhWbTFaV0ZaelpFVTFhR0pYVm1aTlZHTTlKbWR5YjNWd1BWSkhWbTFaV0ZaelpFTkNTR050T1RGalFUMDkKc3NyOi8vYm5OMWF6TXVhWEoxYm1SdWN5NXVaWFE2TlRBd01EcGhkWFJvWDJGbGN6RXlPRjl0WkRVNllYVjBienBvZEhSd1gzQnZjM1E2VGxWYVdtRkhORFZPYTBGeVV6SnZQUzgvY21WdFlYSnJjejFhUjFadFdWaFdjMlJGTldoaVYxWm1UVlJuUFNabmNtOTFjRDFTUjFadFdWaFdjMlJEUWtoamJUa3hZMEU5UFE9PQpzc3I6Ly9ibk51YkRJdWFYSjFibVJ1Y3k1dVpYUTZOVEF3TURwaGRYUm9YMkZsY3pFeU9GOXRaRFU2WVhWMGJ6cG9kSFJ3WDNOcGJYQnNaVHBUYTJjeFRXMW9NRTFxUlhKSk0wNW9Xa0U5UFM4L2NtVnRZWEpyY3oxYVIxWnRXVmhXYzJSRk5XaGlWMVptVFZSclBTWm5jbTkxY0QxU1IxWnRXVmhXYzJSRFFraGpiVGt4WTBFOVBRPT0=
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7895
+ipv6: false
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+secret: ""
+bind-address: "*"
+unified-delay: true
+profile:
+  store-selected: true
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  listen: 0.0.0.0:7874
+  nameserver:
+    - 8.8.8.8
+    - 1.0.0.1
+    - https://dns.google/dns-query
+  fallback:
+    - 1.1.1.1
+    - 8.8.4.4
+    - https://cloudflare-dns.com/dns-query
+    - 112.215.203.254
+  default-nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 112.215.203.254
+proxies:
+  - name: vmess-b2fi8afj
+    server: msnl1.easytome.net
+    port: 80
+    type: vmess
+    uuid: 13ac8bab-3610-41da-bf55-6236910f447b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: fast.com
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+      headers:
+        Host:
+          - fast.com
+    udp: true
+  - name: vmess
+    server: mside2.easytome.net
+    port: 17816
+    type: vmess
+    uuid: ce0160a5-7e6f-484a-f8a0-fa85c4ea04db
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ""
+    udp: true
+  - name: vless_normal-ws0lo32z
+    server: msfin.easytome.net
+    port: 80
+    type: vless
+    uuid: 239904be-0891-43c5-a9f5-ffd299ca113c
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: fast.com
+    udp: true
+  - name: vless
+    server: msus.easytome.net
+    port: 35911
+    type: vless
+    uuid: 5621b36b-91ed-4a0e-92f9-8204a50cec7a
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ""
+    udp: true
+  - name: vLess-TCP-turbo
+    server: msifr.easytome.net
+    port: 8080
+    type: vless
+    uuid: 8c1dc180-7988-47fd-9228-69af197fd18f
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: telewebion.com
+    udp: true
+  - name: VLESS2-gd0vxlbp
+    server: side2.ayanhost.com
+    port: 8081
+    type: vless
+    uuid: 89747d1d-a47b-4cfb-a67f-4b305f077579
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: fast.com
+    udp: true
+  - name: vless_normal-91diw6aj
+    server: mstr.easytome.net
+    port: 8081
+    type: vless
+    uuid: 04f16ba9-f46b-4871-8f62-dea76ce4aeec
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: fast.com
+    udp: true
+  - name: nsuk2.irundns.net:5000
+    server: nsuk2.irundns.net
+    port: 5000
+    type: ssr
+    cipher: chacha20
+    password: +TuRB0V9N++
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: nsfr2.irundns.net:5000
+    server: nsfr2.irundns.net
+    port: 5000
+    type: ssr
+    cipher: chacha20
+    password: +TUR807PN++
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: nsuk.irundns.net:5000
+    server: nsuk.irundns.net
+    port: 5000
+    type: ssr
+    cipher: chacha20
+    password: $$Turb0VPN+$$
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: nsus.irundns.net:5000
+    server: nsus.irundns.net
+    port: 5000
+    type: ssr
+    cipher: chacha20
+    password: $$Turb0++VPN$$
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: nsde4.irundns.net:5000
+    server: nsde4.irundns.net
+    port: 5000
+    type: ssr
+    cipher: salsa20
+    password: +asd6a5s5df+
+    protocol: auth_aes128_md5
+    obfs: http_post
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: nsus6.irundns.net:5000
+    server: nsus6.irundns.net
+    port: 5000
+    type: ssr
+    cipher: salsa20
+    password: +asd6a5s5df+
+    protocol: auth_aes128_md5
+    obfs: http_post
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: nsus6.irundns.net:5000 2
+    server: nsus6.irundns.net
+    port: 5000
+    type: ssr
+    cipher: salsa20
+    password: +asd6a5s5df+
+    protocol: auth_aes128_md5
+    obfs: http_post
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: nsus5.irundns.net:5000
+    server: nsus5.irundns.net
+    port: 5000
+    type: ssr
+    cipher: chacha20
+    password: BVga$@jah+
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: nsde3.irundns.net:5000
+    server: nsde3.irundns.net
+    port: 5000
+    type: ssr
+    cipher: chacha20
+    password: Jh+287UBAd@+
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: nsnl5.irundns.net:5000
+    server: nsnl5.irundns.net
+    port: 5000
+    type: ssr
+    cipher: salsa20
+    password: $$Turb0+VN$$
+    protocol: auth_aes128_md5
+    obfs: http_post
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: nsus4.irundns.net:5000
+    server: nsus4.irundns.net
+    port: 5000
+    type: ssr
+    cipher: chacha20
+    password: +asd6a5s5df+
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: sstr.irundns.net:443
+    server: sstr.irundns.net
+    port: 443
+    type: ssr
+    cipher: aes-128-cfb
+    password: +asd6a5s5df+
+    protocol: auth_aes128_md5
+    obfs: http_post
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: nsus3.irundns.net:5000
+    server: nsus3.irundns.net
+    port: 5000
+    type: ssr
+    cipher: aes-128-cfb
+    password: +asd6a5s5df+
+    protocol: auth_aes128_md5
+    obfs: http_post
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: ssca.irundns.net:443
+    server: ssca.irundns.net
+    port: 443
+    type: ssr
+    cipher: aes-128-cfb
+    password: $$Turb0VPN$$
+    protocol: auth_aes128_md5
+    obfs: http_post
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: nsfr3.irundns.net:5000
+    server: nsfr3.irundns.net
+    port: 5000
+    type: ssr
+    cipher: chacha20
+    password: +TUR807PN++
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: nsde.irundns.net:5000
+    server: nsde.irundns.net
+    port: 5000
+    type: ssr
+    cipher: salsa20
+    password: Jh+287UBAd@+
+    protocol: auth_aes128_md5
+    obfs: http_post
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: nsnl.irundns.net:5000
+    server: nsnl.irundns.net
+    port: 5000
+    type: ssr
+    cipher: salsa20
+    password: $$Turb0+VN$$
+    protocol: auth_aes128_md5
+    obfs: http_post
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: nsuk3.irundns.net:5000
+    server: nsuk3.irundns.net
+    port: 5000
+    type: ssr
+    cipher: salsa20
+    password: 5FYhn96@+Kj
+    protocol: auth_aes128_md5
+    obfs: http_post
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: nsnl2.irundns.net:5000
+    server: nsnl2.irundns.net
+    port: 5000
+    type: ssr
+    cipher: chacha20
+    password: JH52ht21+#sad
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+proxy-groups:
+  - name: FASTSSH-SSHKIT-HOWDY
+    type: select
+    proxies:
+      - vmess-b2fi8afj
+      - vmess
+      - vless_normal-ws0lo32z
+      - vless
+      - vLess-TCP-turbo
+      - VLESS2-gd0vxlbp
+      - vless_normal-91diw6aj
+      - nsuk2.irundns.net:5000
+      - nsfr2.irundns.net:5000
+      - nsuk.irundns.net:5000
+      - nsus.irundns.net:5000
+      - nsde4.irundns.net:5000
+      - nsus6.irundns.net:5000
+      - nsus6.irundns.net:5000 2
+      - nsus5.irundns.net:5000
+      - nsde3.irundns.net:5000
+      - nsnl5.irundns.net:5000
+      - nsus4.irundns.net:5000
+      - sstr.irundns.net:443
+      - nsus3.irundns.net:5000
+      - ssca.irundns.net:443
+      - nsfr3.irundns.net:5000
+      - nsde.irundns.net:5000
+      - nsnl.irundns.net:5000
+      - nsuk3.irundns.net:5000
+      - nsnl2.irundns.net:5000
+      - DIRECT
+rules:
+  - MATCH,FASTSSH-SSHKIT-HOWDY
