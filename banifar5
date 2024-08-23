@@ -64,3 +64,5 @@ vless://89b3cbba-e6ac-485a-9481-976a0415eab9@172.67.156.54:443?security=tls&type
 vless://1d86846c-5a27-43c8-8981-57bb75c82195@104.21.3.52:443?security=tls&type=ws&sni=iyjil.cfonni.info&fp=chrome&path=/paradise&encryption=none&headerType=none#%F0%9F%87%BA%F0%9F%87%B8_Banifar_64
 vless://41613a08-3b05-4e40-92f2-e26f6c1c09cb@190.93.244.249:2096?security=tls&type=grpc&sni=howdy-fr-chanel.highposhako.ir&fp=chrome&encryption=none&headerType=none#%F0%9F%87%BA%F0%9F%87%B8_Banifar_65
 vless://fb76ae39-f97e-5a9f-9beb-0e7100166f69@104.21.21.218:2096?security=tls&type=ws&sni=6-vpnkenzo.tgsqd.WoRKErs.deV&fp=edge&path=vless-ws/?ed=2048&encryption=none&headerType=none#%F0%9F%87%BA%F0%9F%87%B8_Banifar_66
+vless://YXV0bzo2YzZkZmU2My02MGU0LTExZWYtYjRmMC0zY2VjZWYxOWY2NWNAdmFoaWR6aWdtYS5zZXJ2MDAubmV0Ojc0OTE?remarks=Me%20aserver%201&obfs=websocket
+vmess://YXV0bzoyZTFiOWIyYi02NmMwLTQwMzUtYWYxNy1kYTE1NWJlYzQ1YTlAMTguMTg0LjE2Ni4xNjQ6ODA4MA?remarks=me%20server%202&obfsParam=soft98.ir&path=/&obfs=http&alterId=0
