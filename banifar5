@@ -71,3 +71,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpzSHpWYzdJakg4ZjNpdnhsUzl3U1RD@43.207.212.16:
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQMXN1cWhBNnNyeE9kSWkzSU1MZFcz@54.169.59.139:47500#71
 vmess://eyJwcyI6IjcyIiwiYWRkIjoiMTA0LjI2LjEzLjcyIiwiYWlkIjowLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5ldCI6IndzIiwic2N5IjoiYXV0byIsInBvcnQiOjQ0MywidGxzIjoidGxzIiwicGF0aCI6Ii9saW5rdndzIiwiaG9zdCI6ImNha2UuY2FwZWxsYXJlLmNvbSJ9
 vless://9aaedc51-2367-4239-a88b-0756dfc9689e@172.67.193.87:8880?security=none&type=ws&encryption=none&headerType=none#73
+vless://df56d302-533a-4393-8623-c4ae73a54ee7@79.127.42.172:8081?type=tcp&path=%2F&host=telewebion.com&headerType=http&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&sni=msifr.easytome.net#vless-turbo-wpwu4nls
+vless://45f39270-846f-44cf-bcbe-d31f39a7d8a5@79.127.42.168:8081?type=tcp&path=%2F&host=fast.com&headerType=http&security=none#VLESS2-t6rs2zab
+vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJ2bWVzcy1iMmZpOGFmaiIsCiAgImFkZCI6ICJtc25sMS5lYXN5dG9tZS5uZXQiLAogICJwb3J0IjogODAsCiAgImlkIjogIjEzYWM4YmFiLTM2MTAtNDFkYS1iZjU1LTYyMzY5MTBmNDQ3YiIsCiAgIm5ldCI6ICJ0Y3AiLAogICJ0eXBlIjogImh0dHAiLAogICJ0bHMiOiAibm9uZSIsCiAgInBhdGgiOiAiLyIsCiAgImhvc3QiOiAiZmFzdC5jb20iCn0=
