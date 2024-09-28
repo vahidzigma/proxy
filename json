@@ -1,0 +1,5017 @@
+{
+  "items": [
+    {
+      "groupid": "custom",
+      "type": "singbox",
+      "site": "",
+      "remark": "Custom",
+      "urlOrPath": "",
+      "userAgentCompatible": "",
+      "enableDiversionRules": true,
+      "reloadAfterProfileUpdate": false,
+      "testLatencyAfterProfileUpdate": false,
+      "testLatencyAutoRemove": false,
+      "enable": true,
+      "editAble": false,
+      "updateTime": "",
+      "updateDurationMinutes": 360,
+      "traffic": null,
+      "disableIsp": false,
+      "isp": null,
+      "ispScheme": null,
+      "servers": [],
+      "urltests": []
+    },
+    {
+      "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+      "type": "singbox",
+      "site": "",
+      "remark": "aban",
+      "urlOrPath": "/private/var/mobile/Containers/Data/Application/5BE5E615-41B9-4740-BCAC-A535F1AD55B0/tmp/32712e0d-7f78-46e7-a13d-4f7737328059.json",
+      "userAgentCompatible": "",
+      "enableDiversionRules": false,
+      "reloadAfterProfileUpdate": true,
+      "testLatencyAfterProfileUpdate": false,
+      "testLatencyAutoRemove": false,
+      "enable": true,
+      "editAble": false,
+      "updateTime": "2024-09-28 14:25:13.865149",
+      "updateDurationMinutes": null,
+      "traffic": null,
+      "disableIsp": false,
+      "isp": null,
+      "ispScheme": null,
+      "servers": [
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "islamic-relief.org reality XTLS direct vless § 0",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "flow": "xtls-rprx-vision",
+          "tls": {
+            "enabled": true,
+            "server_name": "islamic-relief.org",
+            "alpn": "http/1.1",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "Z4YSO8tg9KD9HptzukYKFWPoeSCB_IVg1MpGzQz5y1g",
+              "short_id": "8773eefe80744b0c"
+            }
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "panel.mediconnectai.com tls_h2 WS direct vless § 1",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/M9W0bPOD2K6whtvGM3fr",
+            "headers": {
+              "Host": "panel.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "trojan",
+          "tag": "panel.mediconnectai.com tls_h2 WS direct trojan § 2",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/BDAjsHR6whtvGM3fr",
+            "headers": {
+              "Host": "panel.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "panel.mediconnectai.com tls_h2 WS direct vmess § 3",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": "panel.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "panel.mediconnectai.com tls_h2 httpupgrade direct vless § 4",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/M9W0bPOD2K0XRkSntXh",
+            "headers": {
+              "Host": "panel.mediconnectai.com"
+            }
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "panel.mediconnectai.com tls_h2 httpupgrade direct vmess § 5",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/khkVPDsXDE0XRkSntXh",
+            "headers": {
+              "Host": "panel.mediconnectai.com"
+            }
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "panel.mediconnectai.com tls_h2 grpc direct vless § 6",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "M9W0bPOD2KbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "trojan",
+          "tag": "panel.mediconnectai.com tls_h2 grpc direct trojan § 7",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "BDAjsHRbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "panel.mediconnectai.com tls_h2 grpc direct vmess § 8",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "khkVPDsXDEbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "panel.mediconnectai.com tls WS direct vless § 9",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/M9W0bPOD2K6whtvGM3fr",
+            "headers": {
+              "Host": "panel.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "trojan",
+          "tag": "panel.mediconnectai.com tls WS direct trojan § 10",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/BDAjsHR6whtvGM3fr",
+            "headers": {
+              "Host": "panel.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "panel.mediconnectai.com tls WS direct vmess § 11",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "alpn": "http/1.1",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": "panel.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "panel.mediconnectai.com tls httpupgrade direct vless § 12",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "alpn": "http/1.1",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/M9W0bPOD2K0XRkSntXh",
+            "headers": {
+              "Host": "panel.mediconnectai.com"
+            }
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "panel.mediconnectai.com tls httpupgrade direct vmess § 13",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "alpn": "http/1.1",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/khkVPDsXDE0XRkSntXh",
+            "headers": {
+              "Host": "panel.mediconnectai.com"
+            }
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "panel.mediconnectai.com tls grpc direct vless § 14",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "M9W0bPOD2KbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "trojan",
+          "tag": "panel.mediconnectai.com tls grpc direct trojan § 15",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "BDAjsHRbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "panel.mediconnectai.com tls grpc direct vmess § 16",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "khkVPDsXDEbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "panel.mediconnectai.com http WS direct vmess § 17",
+          "server": "panel.mediconnectai.com",
+          "server_port": 80,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": "panel.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "panel.mediconnectai.com http httpupgrade direct vmess § 18",
+          "server": "panel.mediconnectai.com",
+          "server_port": 80,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/khkVPDsXDE0XRkSntXh",
+            "headers": {
+              "Host": "panel.mediconnectai.com"
+            }
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "ssh",
+          "tag": "panel.mediconnectai.com SSH § 19",
+          "server": "panel.mediconnectai.com",
+          "server_port": 25782,
+          "user": "72615fdf-ef86-45dc-9477-509608abadce",
+          "private_key": "-----BEGIN OPENSSH PRIVATE KEY-----\n-----BEGIN OPENSSH PRIVATE KEY-----b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZWQyNTUxOQAAACAbsVN6bUa8C3VDDr0NPiiSMpMmsuThUtjDEgCAPxV6pQAAAIjU2YvP1NmLzwAAAAtzc2gtZWQyNTUxOQAAACAbsVN6bUa8C3VDDr0NPiiSMpMmsuThUtjDEgCAPxV6pQAAAEApQatiuAVNM8XkFUNaeH9lGJw5eN6AkqjDjvT09C3K0xuxU3ptRrwLdUMOvQ0 KJIykyay5OFS2MMSAIA/FXqlAAAAAAECAwQF-----END OPENSSH PRIVATE KEY-----\n-----END OPENSSH PRIVATE KEY-----\n",
+          "host_key": [
+            "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGHKSUGdDHAHWiklIPCSdsXai1t/y1S4S ea2IFUCVJ1",
+            "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBG2b1v9xKFyLPcb m0/6lF9Aoxz7kL8X9m3xKt5IN 6Uv74KTLOvdSXFMfSMihzMmJxKtjJwgxHI3Ik0KxYHlmg="
+          ]
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "wireguard",
+          "tag": "panel.mediconnectai.com WireGuard § 20",
+          "local_address": "10.0.0.1/24",
+          "private_key": "YHTGS29NbIOtZ0PpoUL3VszZ1jI4JuW bN0VPIHOTFc==",
+          "server": "panel.mediconnectai.com",
+          "server_port": 53046,
+          "peer_public_key": "v56iJOd9huZZkL0G8/qFUC/n5UcEBzVxcNb1GQknbXk=",
+          "pre_shared_key": "0bs0Im2xMtFXMWI5HkLWGEJonsglW3pwBqXBdSpS0 o=",
+          "reserved": "AAAA",
+          "mtu": 1380,
+          "fake_packets": "5-10"
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "tuic",
+          "tag": "panel.mediconnectai.com TUIC § 21",
+          "server": "panel.mediconnectai.com",
+          "server_port": 26330,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "congestion_control": "cubic",
+          "udp_relay_mode": "native",
+          "heartbeat": "10s",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "alpn": [
+              "h3",
+              "spdy/3.1"
+            ]
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "hysteria2",
+          "tag": "panel.mediconnectai.com Hysteria2 § 22",
+          "server": "panel.mediconnectai.com",
+          "server_port": 29365,
+          "obfs": {
+            "type": "salamander",
+            "password": "qezW0eqevvJdu4zSedr"
+          },
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "cnd tls_h2 WS CDN vless § 23",
+          "server": "time.is",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdn.mediconnectai.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/M9W0bPOD2K6whtvGM3fr",
+            "headers": {
+              "Host": "cdn.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "trojan",
+          "tag": "cnd tls_h2 WS CDN trojan § 24",
+          "server": "time.is",
+          "server_port": 443,
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdn.mediconnectai.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/BDAjsHR6whtvGM3fr",
+            "headers": {
+              "Host": "cdn.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "cnd tls_h2 WS CDN vmess § 25",
+          "server": "time.is",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "cdn.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": "cdn.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "cnd tls_h2 httpupgrade CDN vless § 26",
+          "server": "time.is",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdn.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/M9W0bPOD2K0XRkSntXh",
+            "headers": {
+              "Host": "cdn.mediconnectai.com"
+            }
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "cnd tls_h2 httpupgrade CDN vmess § 27",
+          "server": "time.is",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "cdn.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/khkVPDsXDE0XRkSntXh",
+            "headers": {
+              "Host": "cdn.mediconnectai.com"
+            }
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "cnd tls_h2 grpc CDN vless § 28",
+          "server": "time.is",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdn.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "M9W0bPOD2KbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "trojan",
+          "tag": "cnd tls_h2 grpc CDN trojan § 29",
+          "server": "time.is",
+          "server_port": 443,
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdn.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "BDAjsHRbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "cnd tls_h2 grpc CDN vmess § 30",
+          "server": "time.is",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "cdn.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "khkVPDsXDEbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "cnd tls WS CDN vless § 31",
+          "server": "time.is",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdn.mediconnectai.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/M9W0bPOD2K6whtvGM3fr",
+            "headers": {
+              "Host": "cdn.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "trojan",
+          "tag": "cnd tls WS CDN trojan § 32",
+          "server": "time.is",
+          "server_port": 443,
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdn.mediconnectai.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/BDAjsHR6whtvGM3fr",
+            "headers": {
+              "Host": "cdn.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "cnd tls WS CDN vmess § 33",
+          "server": "time.is",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "cdn.mediconnectai.com",
+            "alpn": "http/1.1",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": "cdn.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "cnd tls httpupgrade CDN vless § 34",
+          "server": "time.is",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdn.mediconnectai.com",
+            "alpn": "http/1.1",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/M9W0bPOD2K0XRkSntXh",
+            "headers": {
+              "Host": "cdn.mediconnectai.com"
+            }
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "cnd tls httpupgrade CDN vmess § 35",
+          "server": "time.is",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "cdn.mediconnectai.com",
+            "alpn": "http/1.1",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/khkVPDsXDE0XRkSntXh",
+            "headers": {
+              "Host": "cdn.mediconnectai.com"
+            }
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "cnd tls grpc CDN vless § 36",
+          "server": "time.is",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdn.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "M9W0bPOD2KbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "trojan",
+          "tag": "cnd tls grpc CDN trojan § 37",
+          "server": "time.is",
+          "server_port": 443,
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "cdn.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "BDAjsHRbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "cnd tls grpc CDN vmess § 38",
+          "server": "time.is",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "cdn.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "khkVPDsXDEbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "cnd http WS CDN vmess § 39",
+          "server": "time.is",
+          "server_port": 80,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": "cdn.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "cnd http httpupgrade CDN vmess § 40",
+          "server": "time.is",
+          "server_port": 80,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/khkVPDsXDE0XRkSntXh",
+            "headers": {
+              "Host": "cdn.mediconnectai.com"
+            }
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "AutoCDN tls_h2 WS CDN vless § 41",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "acdn.mediconnectai.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/M9W0bPOD2K6whtvGM3fr",
+            "headers": {
+              "Host": "acdn.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "trojan",
+          "tag": "AutoCDN tls_h2 WS CDN trojan § 42",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "acdn.mediconnectai.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/BDAjsHR6whtvGM3fr",
+            "headers": {
+              "Host": "acdn.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "AutoCDN tls_h2 WS CDN vmess § 43",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "acdn.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": "acdn.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "AutoCDN tls_h2 httpupgrade CDN vless § 44",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "acdn.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/M9W0bPOD2K0XRkSntXh",
+            "headers": {
+              "Host": "acdn.mediconnectai.com"
+            }
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "AutoCDN tls_h2 httpupgrade CDN vmess § 45",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "acdn.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/khkVPDsXDE0XRkSntXh",
+            "headers": {
+              "Host": "acdn.mediconnectai.com"
+            }
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "AutoCDN tls_h2 grpc CDN vless § 46",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "acdn.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "M9W0bPOD2KbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "trojan",
+          "tag": "AutoCDN tls_h2 grpc CDN trojan § 47",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "acdn.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "BDAjsHRbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "AutoCDN tls_h2 grpc CDN vmess § 48",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "acdn.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "khkVPDsXDEbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "AutoCDN tls WS CDN vless § 49",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "acdn.mediconnectai.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/M9W0bPOD2K6whtvGM3fr",
+            "headers": {
+              "Host": "acdn.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "trojan",
+          "tag": "AutoCDN tls WS CDN trojan § 50",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "acdn.mediconnectai.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/BDAjsHR6whtvGM3fr",
+            "headers": {
+              "Host": "acdn.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "AutoCDN tls WS CDN vmess § 51",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "acdn.mediconnectai.com",
+            "alpn": "http/1.1",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": "acdn.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "AutoCDN tls httpupgrade CDN vless § 52",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "acdn.mediconnectai.com",
+            "alpn": "http/1.1",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/M9W0bPOD2K0XRkSntXh",
+            "headers": {
+              "Host": "acdn.mediconnectai.com"
+            }
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "AutoCDN tls httpupgrade CDN vmess § 53",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "acdn.mediconnectai.com",
+            "alpn": "http/1.1",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/khkVPDsXDE0XRkSntXh",
+            "headers": {
+              "Host": "acdn.mediconnectai.com"
+            }
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "AutoCDN tls grpc CDN vless § 54",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "acdn.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "M9W0bPOD2KbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "trojan",
+          "tag": "AutoCDN tls grpc CDN trojan § 55",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "acdn.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "BDAjsHRbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "AutoCDN tls grpc CDN vmess § 56",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "acdn.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "khkVPDsXDEbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "AutoCDN http WS CDN vmess § 57",
+          "server": "104.16.4.103",
+          "server_port": 80,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": "acdn.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "AutoCDN http httpupgrade CDN vmess § 58",
+          "server": "104.16.4.103",
+          "server_port": 80,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/khkVPDsXDE0XRkSntXh",
+            "headers": {
+              "Host": "acdn.mediconnectai.com"
+            }
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "SubLink tls_h2 WS direct vless § 59",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/M9W0bPOD2K6whtvGM3fr",
+            "headers": {
+              "Host": "sub.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "trojan",
+          "tag": "SubLink tls_h2 WS direct trojan § 60",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/BDAjsHR6whtvGM3fr",
+            "headers": {
+              "Host": "sub.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "SubLink tls_h2 WS direct vmess § 61",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": "sub.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "SubLink tls_h2 httpupgrade direct vless § 62",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/M9W0bPOD2K0XRkSntXh",
+            "headers": {
+              "Host": "sub.mediconnectai.com"
+            }
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "SubLink tls_h2 httpupgrade direct vmess § 63",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/khkVPDsXDE0XRkSntXh",
+            "headers": {
+              "Host": "sub.mediconnectai.com"
+            }
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "SubLink tls_h2 grpc direct vless § 64",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "M9W0bPOD2KbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "trojan",
+          "tag": "SubLink tls_h2 grpc direct trojan § 65",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "BDAjsHRbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "SubLink tls_h2 grpc direct vmess § 66",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "khkVPDsXDEbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "SubLink tls WS direct vless § 67",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/M9W0bPOD2K6whtvGM3fr",
+            "headers": {
+              "Host": "sub.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "trojan",
+          "tag": "SubLink tls WS direct trojan § 68",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/BDAjsHR6whtvGM3fr",
+            "headers": {
+              "Host": "sub.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "SubLink tls WS direct vmess § 69",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "alpn": "http/1.1",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": "sub.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "SubLink tls httpupgrade direct vless § 70",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "alpn": "http/1.1",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/M9W0bPOD2K0XRkSntXh",
+            "headers": {
+              "Host": "sub.mediconnectai.com"
+            }
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "SubLink tls httpupgrade direct vmess § 71",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "alpn": "http/1.1",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/khkVPDsXDE0XRkSntXh",
+            "headers": {
+              "Host": "sub.mediconnectai.com"
+            }
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "SubLink tls grpc direct vless § 72",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "M9W0bPOD2KbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "trojan",
+          "tag": "SubLink tls grpc direct trojan § 73",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "BDAjsHRbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "SubLink tls grpc direct vmess § 74",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "alpn": "h2",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            }
+          },
+          "transport": {
+            "type": "grpc",
+            "service_name": "khkVPDsXDEbZdKWIqzP",
+            "idle_timeout": "15s",
+            "ping_timeout": "15s"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "SubLink http WS direct vmess § 75",
+          "server": "sub.mediconnectai.com",
+          "server_port": 80,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": "sub.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vmess",
+          "tag": "SubLink http httpupgrade direct vmess § 76",
+          "server": "sub.mediconnectai.com",
+          "server_port": 80,
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "authenticated_length": true,
+          "transport": {
+            "type": "httpupgrade",
+            "path": "/khkVPDsXDE0XRkSntXh",
+            "headers": {
+              "Host": "sub.mediconnectai.com"
+            }
+          }
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "ABAN_Vless_hels § 77",
+          "server": "zula.ir",
+          "server_port": 2095,
+          "uuid": "3c20b131-dad2-4251-a384-978be7a7bf17",
+          "transport": {
+            "type": "ws",
+            "path": "/",
+            "headers": {
+              "Host": "aban.mediconnectai.com"
+            },
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "tunnel-ABAN § 78",
+          "server": "31.47.51.17",
+          "server_port": 8080,
+          "uuid": "1874a9f5-9644-4344-a9d1-7b96a7767475",
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "vless",
+          "tag": "اینترنت+ثابت+ § 79",
+          "server": "azad2t.v2jet.com",
+          "server_port": 2086,
+          "uuid": "64b45284-974c-4962-a8c8-01b380f7ab49",
+          "transport": {
+            "type": "http",
+            "path": "/",
+            "method": "GET"
+          },
+          "packet_encoding": ""
+        },
+        {
+          "groupid": "d449dc33-44e7-4cf1-b9ca-0b1c19b603d2",
+          "latency": "",
+          "type": "shadowsocks",
+          "tag": "a55dcf64f2 § 80",
+          "server": "",
+          "server_port": 443,
+          "method": "",
+          "password": ""
+        }
+      ],
+      "urltests": []
+    },
+    {
+      "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+      "type": "v2ray",
+      "site": "",
+      "remark": "Banifar",
+      "urlOrPath": "https://raw.githubusercontent.com/vahidzigma/proxy/main/banifar5",
+      "userAgentCompatible": "ClashMeta;sing-box;clash-verge;NekoBox/Android/1.3.1 (Perfer ClashMeta Format);HiddifyNext;v2ray",
+      "enableDiversionRules": false,
+      "reloadAfterProfileUpdate": true,
+      "testLatencyAfterProfileUpdate": true,
+      "testLatencyAutoRemove": false,
+      "enable": true,
+      "editAble": false,
+      "updateTime": "2024-09-28 14:24:25.256938",
+      "updateDurationMinutes": 720,
+      "traffic": null,
+      "disableIsp": false,
+      "isp": null,
+      "ispScheme": null,
+      "servers": [
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "207.244.208.14",
+          "server_port": 18000,
+          "tag": "Proxy",
+          "type": "vmess",
+          "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+          "security": "auto",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "94.241.165.5",
+          "server_port": 18000,
+          "tag": "109",
+          "type": "vmess",
+          "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+          "security": "auto",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "207.244.208.120",
+          "server_port": 18000,
+          "tag": "103",
+          "type": "vmess",
+          "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+          "security": "auto",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "94.241.165.234",
+          "server_port": 18000,
+          "tag": "107",
+          "type": "vmess",
+          "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+          "security": "auto",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "94.241.165.22",
+          "server_port": 18000,
+          "tag": "Proxy-1",
+          "type": "vmess",
+          "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+          "security": "auto",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "3.clarity168.com",
+          "server_port": 443,
+          "tag": "fall-out",
+          "type": "vmess",
+          "uuid": "48f837fa-12d0-498d-b5f6-94f9979736a4",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "3.clarity168.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/tk",
+            "headers": {
+              "Host": [
+                "3.clarity168.com"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "23.157.88.20",
+          "server_port": 22324,
+          "tag": "Proxy-2",
+          "type": "vmess",
+          "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+          "security": "auto",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "priboj.homes",
+          "server_port": 443,
+          "tag": "Proxy-3",
+          "type": "vmess",
+          "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "priboj.homes",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkvws",
+            "headers": {
+              "Host": [
+                "priboj.homes"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "68.168.31.244",
+          "server_port": 22324,
+          "tag": "Proxy-4",
+          "type": "vmess",
+          "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+          "security": "auto",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "23.162.152.146",
+          "server_port": 22324,
+          "tag": "Proxy-5",
+          "type": "vmess",
+          "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+          "security": "auto",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "186.190.215.139",
+          "server_port": 22324,
+          "tag": "Proxy-6",
+          "type": "vmess",
+          "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+          "security": "auto",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "23.158.56.129",
+          "server_port": 22324,
+          "tag": "Proxy-7",
+          "type": "vmess",
+          "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+          "security": "auto",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "23.166.88.47",
+          "server_port": 22324,
+          "tag": "Proxy-8",
+          "type": "vmess",
+          "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+          "security": "auto",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "23.158.56.129",
+          "server_port": 22324,
+          "tag": "Proxy-9",
+          "type": "vmess",
+          "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+          "security": "auto",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "c.cacak.homes",
+          "server_port": 443,
+          "tag": "Proxy-10",
+          "type": "vmess",
+          "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "c.cacak.homes",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkvws",
+            "headers": {
+              "Host": [
+                "c.cacak.homes"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "23.162.200.141",
+          "server_port": 22324,
+          "tag": "Proxy-11",
+          "type": "vmess",
+          "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+          "security": "auto",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "134.195.198.171",
+          "server_port": 22324,
+          "tag": "Proxy-12",
+          "type": "vmess",
+          "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+          "security": "auto",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "cs.priboj.homes",
+          "server_port": 443,
+          "tag": "Proxy-13",
+          "type": "vmess",
+          "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "cs.priboj.homes",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkvws",
+            "headers": {
+              "Host": [
+                "cs.priboj.homes"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "d.sjenica.homes",
+          "server_port": 443,
+          "tag": "Proxy-14",
+          "type": "vmess",
+          "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "d.sjenica.homes",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkvws",
+            "headers": {
+              "Host": [
+                "d.sjenica.homes"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "185.221.219.190",
+          "server_port": 22324,
+          "tag": "Proxy-15",
+          "type": "vmess",
+          "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+          "security": "auto",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "38.91.107.158",
+          "server_port": 22324,
+          "tag": "Proxy-16",
+          "type": "vmess",
+          "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+          "security": "auto",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "38.99.82.141",
+          "server_port": 22324,
+          "tag": "Proxy-17",
+          "type": "vmess",
+          "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+          "security": "auto",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "hms21.beyonddsz.cfd",
+          "server_port": 443,
+          "tag": "v1",
+          "type": "vmess",
+          "uuid": "a84f7f13-1f13-4574-8f06-2673ee966c24",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "hms21.beyonddsz.cfd",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "hms21.beyonddsz.cfd"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "hms17.mifixedfloat.top",
+          "server_port": 443,
+          "tag": "v2",
+          "type": "vmess",
+          "uuid": "0c869014-5ff1-4a1e-901f-198a9ee52ef9",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "hms17.mifixedfloat.top",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "hms17.mifixedfloat.top"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "hms19.best-tizi.top",
+          "server_port": 443,
+          "tag": "v3",
+          "type": "vmess",
+          "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "hms19.best-tizi.top",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "hms19.best-tizi.top"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "mifixedfloat.top",
+          "server_port": 443,
+          "tag": "v4",
+          "type": "vmess",
+          "uuid": "f1b76d52-84b8-4bac-b06e-e920e182c0c4",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "mifixedfloat.top",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "mifixedfloat.top"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "bv20t.fixed-float.top",
+          "server_port": 443,
+          "tag": "v5",
+          "type": "vmess",
+          "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "bv20t.fixed-float.top",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "bv20t.fixed-float.top"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "unexpected HTTP response status: 525",
+          "server": "hms182.glweidf.sbs",
+          "server_port": 443,
+          "tag": "v6",
+          "type": "vmess",
+          "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "hms182.glweidf.sbs",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "hms182.glweidf.sbs"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "gc06.obdii.cfd",
+          "server_port": 443,
+          "tag": "v8",
+          "type": "vmess",
+          "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "gc06.obdii.cfd",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "gc06.obdii.cfd"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "unexpected HTTP response status: 404",
+          "server": "lin0502.hwcar.sbs",
+          "server_port": 443,
+          "tag": "v11",
+          "type": "vmess",
+          "uuid": "39cec18f-a439-427c-9a4e-aeb6fcdf6f53",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "lin0502.hwcar.sbs",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "lin0502.hwcar.sbs"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "hms16.bestxray.buzz",
+          "server_port": 443,
+          "tag": "v12",
+          "type": "vmess",
+          "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "hms16.bestxray.buzz",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "hms16.bestxray.buzz"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "lin05.hwcar.sbs",
+          "server_port": 443,
+          "tag": "v13",
+          "type": "vmess",
+          "uuid": "39cec18f-a439-427c-9a4e-aeb6fcdf6f53",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "lin05.hwcar.sbs",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "lin05.hwcar.sbs"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "unexpected HTTP response status: 521",
+          "server": "hms082.gwdef.sbs",
+          "server_port": 443,
+          "tag": "v17",
+          "type": "vmess",
+          "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "hms082.gwdef.sbs",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "hms082.gwdef.sbs"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "linde06.indiavideo.sbs",
+          "server_port": 443,
+          "tag": "v18",
+          "type": "vmess",
+          "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "linde06.indiavideo.sbs",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "linde06.indiavideo.sbs"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "afrhms16v.bestxray.buzz",
+          "server_port": 443,
+          "tag": "v24",
+          "type": "vmess",
+          "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "afrhms16v.bestxray.buzz",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "afrhms16v.bestxray.buzz"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "hms24.ivideos.sbs",
+          "server_port": 443,
+          "tag": "v25",
+          "type": "vmess",
+          "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "hms24.ivideos.sbs",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "hms24.ivideos.sbs"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "unexpected HTTP response status: 302",
+          "server": "hms08.gwdef.sbs",
+          "server_port": 443,
+          "tag": "v26",
+          "type": "vmess",
+          "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "hms08.gwdef.sbs",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "hms08.gwdef.sbs"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "unexpected HTTP response status: 525",
+          "server": "glweidf.cfd",
+          "server_port": 443,
+          "tag": "v29",
+          "type": "vmess",
+          "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "glweidf.cfd",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "glweidf.cfd"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "unexpected HTTP response status: 521",
+          "server": "hms02opi.fxiaomi.sbs",
+          "server_port": 443,
+          "tag": "v31",
+          "type": "vmess",
+          "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "hms02opi.fxiaomi.sbs",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/link",
+            "headers": {
+              "Host": [
+                "hms02opi.fxiaomi.sbs"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "hms01.beyonddbc.cfd",
+          "server_port": 443,
+          "tag": "v21",
+          "type": "trojan",
+          "password": "ee49ac8e-bd4e-4b5f-9247-db0f714e5556",
+          "tls": {
+            "enabled": true,
+            "server_name": "hms01.beyonddbc.cfd",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "hms07.xfixedfloat.cfd",
+          "server_port": 443,
+          "tag": "v23",
+          "type": "vmess",
+          "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "hms07.xfixedfloat.cfd",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "hms07.xfixedfloat.cfd"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "irhms03.dongfeng.cfd",
+          "server_port": 443,
+          "tag": "v30",
+          "type": "vmess",
+          "uuid": "fa5b55cd-cafc-4de0-a4c8-722e02a9f58e",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "irhms03.dongfeng.cfd",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "irhms03.dongfeng.cfd"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "unexpected HTTP response status: 521",
+          "server": "hms2301.fixedfloati.cfd",
+          "server_port": 443,
+          "tag": "v15",
+          "type": "vmess",
+          "uuid": "9072d339-3885-4fe1-b0bc-29fa7505410e",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "hms2301.fixedfloati.cfd",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkwsd",
+            "headers": {
+              "Host": [
+                "hms2301.fixedfloati.cfd"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "unexpected HTTP response status: 520",
+          "server": "hms071.xfixedfloat.cfd",
+          "server_port": 443,
+          "tag": "v22",
+          "type": "vmess",
+          "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "hms071.xfixedfloat.cfd",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "hms071.xfixedfloat.cfd"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "unexpected HTTP response status: 521",
+          "server": "hms23.fixedfloati.cfd",
+          "server_port": 443,
+          "tag": "v10",
+          "type": "vmess",
+          "uuid": "9072d339-3885-4fe1-b0bc-29fa7505410e",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "hms23.fixedfloati.cfd",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkwsd",
+            "headers": {
+              "Host": [
+                "hms23.fixedfloati.cfd"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "hms22.jahfkjha.cfd",
+          "server_port": 443,
+          "tag": "v28",
+          "type": "vmess",
+          "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "hms22.jahfkjha.cfd",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "hms22.jahfkjha.cfd"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "354",
+          "server": "obdii.cfd",
+          "server_port": 443,
+          "tag": "v9",
+          "type": "vmess",
+          "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "obdii.cfd",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "obdii.cfd"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "358",
+          "server": "jahfkjha.cfd",
+          "server_port": 443,
+          "tag": "v7",
+          "type": "vmess",
+          "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "jahfkjha.cfd",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "jahfkjha.cfd"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "gt021.bestforxray.buzz",
+          "server_port": 443,
+          "tag": "v19",
+          "type": "vmess",
+          "uuid": "c1fd780a-3408-4f48-a932-5832a28ce9f6",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "gt021.bestforxray.buzz",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "gt021.bestforxray.buzz"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "lin06.indiavideo.sbs",
+          "server_port": 443,
+          "tag": "v16",
+          "type": "vmess",
+          "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "lin06.indiavideo.sbs",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "lin06.indiavideo.sbs"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "unexpected HTTP response status: 429",
+          "server": "hms18.glweidf.sbs",
+          "server_port": 443,
+          "tag": "v27",
+          "type": "vmess",
+          "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "hms18.glweidf.sbs",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "hms18.glweidf.sbs"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "gt02.bestforxray.buzz",
+          "server_port": 443,
+          "tag": "v20",
+          "type": "vmess",
+          "uuid": "c1fd780a-3408-4f48-a932-5832a28ce9f6",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "gt02.bestforxray.buzz",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "gt02.bestforxray.buzz"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "163",
+          "server": "hms26.xpengmotors.sbs",
+          "server_port": 443,
+          "tag": "v0",
+          "type": "vmess",
+          "uuid": "fb0a2de6-bf06-4ff0-97ce-c21abcdc2d55",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "hms26.xpengmotors.sbs",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "hms26.xpengmotors.sbs"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "hms04.xmivideo.cfd",
+          "server_port": 443,
+          "tag": "v32",
+          "type": "vmess",
+          "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "hms04.xmivideo.cfd",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "hms04.xmivideo.cfd"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "denc36.xtooltech.cfd",
+          "server_port": 443,
+          "tag": "v14",
+          "type": "vmess",
+          "uuid": "b321fd5d-e6ec-4293-a644-164e3885f52e",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "denc36.xtooltech.cfd",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "denc36.xtooltech.cfd"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "79.127.42.168",
+          "server_port": 8081,
+          "tag": "VLESS2-t6rs2zab",
+          "type": "vless",
+          "uuid": "45f39270-846f-44cf-bcbe-d31f39a7d8a5",
+          "packet_encoding": "xudp"
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "94.241.165.132",
+          "server_port": 18000,
+          "tag": "s103-d",
+          "type": "vmess",
+          "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+          "security": "auto",
+          "alter_id": 1
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "msnl1.easytome.net",
+          "server_port": 80,
+          "tag": "vmess-b2fi8afj",
+          "type": "vmess",
+          "uuid": "13ac8bab-3610-41da-bf55-6236910f447b",
+          "security": "auto",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "tag": "61",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "sub.mediconnectai.com"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "94.241.165.183",
+          "server_port": 18000,
+          "tag": "s101-d",
+          "type": "vmess",
+          "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+          "security": "auto",
+          "alter_id": 1
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "79.127.42.172",
+          "server_port": 8081,
+          "tag": "vless-turbo-wpwu4nls",
+          "type": "vless",
+          "uuid": "df56d302-533a-4393-8623-c4ae73a54ee7",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "79.127.42.172",
+            "insecure": true,
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "299",
+          "server": "80.92.204.106",
+          "server_port": 9027,
+          "tag": "_25",
+          "type": "shadowsocks",
+          "method": "aes-256-cfb",
+          "password": "EXN3S3eQpjE7EJu8"
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "405",
+          "server": "80.92.204.106",
+          "server_port": 9005,
+          "tag": "_24",
+          "type": "shadowsocks",
+          "method": "aes-256-cfb",
+          "password": "ZET59LF6DvCC8KVt"
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "379",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "tag": "51",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "acdn.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "acdn.mediconnectai.com"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "94.241.165.209",
+          "server_port": 18000,
+          "tag": "s106-d",
+          "type": "vmess",
+          "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+          "security": "auto",
+          "alter_id": 1
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "94.241.165.199",
+          "server_port": 18000,
+          "tag": "s102-w",
+          "type": "vmess",
+          "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+          "security": "auto",
+          "alter_id": 1
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "94.241.165.59",
+          "server_port": 18000,
+          "tag": "s109-d",
+          "type": "vmess",
+          "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+          "security": "auto",
+          "alter_id": 1
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Head \"https://www.instagram.com\": unexpected HTTP response status: 521",
+          "server": "monitor.tgju.org",
+          "server_port": 443,
+          "tag": "440",
+          "type": "vless",
+          "uuid": "3f2a8ac5-f359-4333-865a-7064e31c2538",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "monitor.tgju.org",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/Telegram-V2rayirani",
+            "headers": {
+              "Host": [
+                "monitor.tgju.org"
+              ]
+            },
+            "max_early_data": 2560,
+            "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "94.241.165.129",
+          "server_port": 18000,
+          "tag": "s107-d",
+          "type": "vmess",
+          "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+          "security": "auto",
+          "alter_id": 1
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "tag": "70",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "insecure": true,
+            "alpn": [
+              "http/1.1"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Head \"https://www.instagram.com\": tls: first record does not look like a TLS handshake",
+          "server": "time.is",
+          "server_port": 443,
+          "tag": "24",
+          "type": "trojan",
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "time.is",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "tag": "0",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "147135007010.sec14org.com",
+          "server_port": 443,
+          "tag": "hula 33",
+          "type": "vless",
+          "uuid": "4375c0df-203e-4b0a-9f2f-0c00ed1fcc0f",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "147135007010.sec14org.com",
+            "insecure": true,
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "147135007027.sec14org.com",
+          "server_port": 443,
+          "tag": "hula 39",
+          "type": "vless",
+          "uuid": "f1e72f73-4e8e-4922-9fd3-ce7312e0ed55",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "147135007027.sec14org.com",
+            "insecure": true,
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "ssca.irundns.net",
+          "server_port": 443,
+          "tag": "Canada Montreal",
+          "type": "shadowsocksr",
+          "method": "aes-128-cfb",
+          "password": "$$Turb0VPN$$",
+          "obfs": "http_post",
+          "protocol": "auth_aes128_md5"
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "mside3.easytome.net",
+          "server_port": 443,
+          "tag": "vLess-TCP-vip1779240_vless",
+          "type": "vless",
+          "uuid": "F2BF584A-7243-B84D-0A45-5D01B2E2FAE3",
+          "packet_encoding": "xudp"
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "147135011033.sec21org.com",
+          "server_port": 443,
+          "tag": "hula 11",
+          "type": "vless",
+          "uuid": "0a44145f-59dc-4e5b-a233-677b97f5114c",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "147135011033.sec21org.com",
+            "insecure": true,
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "",
+          "server": "lin0502.hwcar.sbs",
+          "server_port": 443,
+          "tag": "v11-1",
+          "type": "vmess",
+          "uuid": "39cec18f-a439-427c-9a4e-aeb6fcdf6f53",
+          "security": "auto",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "lin0502.hwcar.sbs",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/linkws",
+            "headers": {
+              "Host": [
+                "lin0502.hwcar.sbs"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "147135011033.sec21org.com",
+          "server_port": 443,
+          "tag": "hula 8",
+          "type": "vless",
+          "uuid": "0a44145f-59dc-4e5b-a233-677b97f5114c",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "147135011033.sec21org.com",
+            "insecure": true,
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "147135004002.sec20org.com",
+          "server_port": 443,
+          "tag": "hula 5",
+          "type": "vless",
+          "uuid": "54694a33-a8dc-47dd-bc38-acd3971e0055",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "147135004002.sec20org.com",
+            "insecure": true,
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "147135001178.sec22org.com",
+          "server_port": 443,
+          "tag": "hula 6",
+          "type": "vless",
+          "uuid": "e20ebe01-1815-4c09-8e77-fb2f168263ce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "147135001178.sec22org.com",
+            "insecure": true,
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "94.241.165.140",
+          "server_port": 18000,
+          "tag": "s102-d",
+          "type": "vmess",
+          "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+          "security": "auto",
+          "alter_id": 1
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "147135001195.sec22org.com",
+          "server_port": 443,
+          "tag": "hula 7",
+          "type": "vless",
+          "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "147135001195.sec22org.com",
+            "insecure": true,
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "tag": "13",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "time.is",
+          "server_port": 443,
+          "tag": "33",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "cdn.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "cdn.mediconnectai.com"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "94.241.165.69",
+          "server_port": 18000,
+          "tag": "s104-d",
+          "type": "vmess",
+          "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+          "security": "auto",
+          "alter_id": 1
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Head \"https://www.instagram.com\": cipher: message authentication failed",
+          "server": "time.is",
+          "server_port": 80,
+          "tag": "40",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "104.16.4.103",
+          "server_port": 80,
+          "tag": "57",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "acdn.mediconnectai.com"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "unexpected HTTP response status: 404",
+          "server": "time.is",
+          "server_port": 443,
+          "tag": "23",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "time.is",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/M9W0bPOD2K6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "time.is"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "tag": "2",
+          "type": "trojan",
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "msnl1.easytome.net",
+          "server_port": 443,
+          "tag": "Reality-vip1779240_vless",
+          "type": "vless",
+          "uuid": "7EE330EE-7E00-0D00-C237-29EBC3969E74",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "msnl1.easytome.net",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "207.244.208.25",
+          "server_port": 18000,
+          "tag": "104-1",
+          "type": "vmess",
+          "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+          "security": "auto",
+          "alter_id": 1
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "azad2t.v2jet.com",
+          "server_port": 2086,
+          "tag": "79",
+          "type": "vless",
+          "uuid": "64b45284-974c-4962-a8c8-01b380f7ab49",
+          "packet_encoding": "xudp"
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "31.47.51.17",
+          "server_port": 8080,
+          "tag": "78",
+          "type": "vless",
+          "uuid": "1874a9f5-9644-4344-a9d1-7b96a7767475",
+          "packet_encoding": "xudp"
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "zula.ir",
+          "server_port": 2095,
+          "tag": "77",
+          "type": "vless",
+          "uuid": "3c20b131-dad2-4251-a384-978be7a7bf17",
+          "packet_encoding": "xudp",
+          "transport": {
+            "type": "ws",
+            "path": "/",
+            "headers": {
+              "Host": [
+                "zula.ir"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "sub.mediconnectai.com",
+          "server_port": 80,
+          "tag": "75",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "sub.mediconnectai.com"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "tag": "71",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "tag": "69",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "sub.mediconnectai.com"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "tag": "67",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/M9W0bPOD2K6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "sub.mediconnectai.com"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "tag": "63",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Head \"https://www.instagram.com\": cipher: message authentication failed",
+          "server": "104.16.4.103",
+          "server_port": 80,
+          "tag": "58",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "tag": "52",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "104.16.4.103",
+            "insecure": true,
+            "alpn": [
+              "http/1.1"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "tag": "44",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "104.16.4.103",
+            "insecure": true,
+            "alpn": [
+              "h2"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "time.is",
+          "server_port": 80,
+          "tag": "39",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "cdn.mediconnectai.com"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Head \"https://www.instagram.com\": cipher: message authentication failed",
+          "server": "time.is",
+          "server_port": 443,
+          "tag": "35",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "time.is",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Head \"https://www.instagram.com\": unknown version: 72",
+          "server": "time.is",
+          "server_port": 443,
+          "tag": "34",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "time.is",
+            "insecure": true,
+            "alpn": [
+              "http/1.1"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Head \"https://www.instagram.com\": cipher: message authentication failed",
+          "server": "time.is",
+          "server_port": 443,
+          "tag": "30",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "time.is",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Head \"https://www.instagram.com\": tls: first record does not look like a TLS handshake",
+          "server": "time.is",
+          "server_port": 443,
+          "tag": "29",
+          "type": "trojan",
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "time.is",
+            "insecure": true,
+            "alpn": [
+              "h2"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Head \"https://www.instagram.com\": tls: first record does not look like a TLS handshake",
+          "server": "time.is",
+          "server_port": 443,
+          "tag": "28",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "time.is",
+            "insecure": true,
+            "alpn": [
+              "h2"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Head \"https://www.instagram.com\": tls: first record does not look like a TLS handshake",
+          "server": "time.is",
+          "server_port": 443,
+          "tag": "26",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "time.is",
+            "insecure": true,
+            "alpn": [
+              "h2"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 29365,
+          "tag": "22",
+          "type": "hysteria2",
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "obfs": {
+            "password": "qezW0eqevvJdu4zSedr",
+            "type": "salamander"
+          },
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 26330,
+          "tag": "21",
+          "type": "tuic",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "congestion_control": "cubic",
+          "udp_relay_mode": "native",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true,
+            "alpn": [
+              "h3",
+              "spdy/3.1"
+            ]
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "parse outbound: decode private key: illegal base64 data at input byte 44",
+          "server": "panel.mediconnectai.com",
+          "server_port": 53046,
+          "tag": "20",
+          "type": "wireguard",
+          "private_key": "YHTGS29NbIOtZ0PpoUL3VszZ1jI4JuW+bN0VPIHOTFc==",
+          "peer_public_key": "v56iJOd9huZZkL0G8/qFUC/n5UcEBzVxcNb1GQknbXk=",
+          "mtu": 1380,
+          "local_address": [
+            "10.0.0.1/24"
+          ]
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 80,
+          "tag": "18",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "tag": "14",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true,
+            "alpn": [
+              "h2"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "tag": "10",
+          "type": "trojan",
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "tag": "8",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "tag": "7",
+          "type": "trojan",
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true,
+            "alpn": [
+              "h2"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "tag": "6",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true,
+            "alpn": [
+              "h2"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "tag": "3",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "panel.mediconnectai.com"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "31.47.51.17",
+          "server_port": 8080,
+          "tag": "0-1",
+          "type": "vless",
+          "uuid": "1874a9f5-9644-4344-a9d1-7b96a7767476",
+          "packet_encoding": "xudp"
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "tag": "11",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "panel.mediconnectai.com"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "tag": "1",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/M9W0bPOD2K6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "panel.mediconnectai.com"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "azad2t.v2jet.com",
+          "server_port": 2086,
+          "tag": "0-2",
+          "type": "vless",
+          "uuid": "64b45284-974c-4962-a8c8-01b380f7ab49",
+          "packet_encoding": "xudp"
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "tag": "4",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true,
+            "alpn": [
+              "h2"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "tag": "5",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "tag": "59",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/M9W0bPOD2K6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "sub.mediconnectai.com"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "tag": "9",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true,
+            "alpn": [
+              "h2"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/M9W0bPOD2K6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "panel.mediconnectai.com"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "94.241.165.27",
+          "server_port": 18000,
+          "tag": "001",
+          "type": "vmess",
+          "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+          "security": "auto",
+          "alter_id": 1
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "tag": "53",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "104.16.4.103",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 80,
+          "tag": "17",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "panel.mediconnectai.com"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "tag": "49",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "104.16.4.103",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/M9W0bPOD2K6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "104.16.4.103"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "94.241.165.199",
+          "server_port": 18000,
+          "tag": "s101-w",
+          "type": "vmess",
+          "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+          "security": "auto",
+          "alter_id": 1
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "msifr.easytome.net",
+          "server_port": 443,
+          "tag": "vLess-TCP-vip1779240_vless-1",
+          "type": "vless",
+          "uuid": "88DB0D1F-66F6-0833-D858-BAAFD8AD6A0D",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "msifr.easytome.net",
+            "insecure": true,
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "unexpected HTTP response status: 404",
+          "server": "time.is",
+          "server_port": 443,
+          "tag": "41",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "time.is",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/M9W0bPOD2K6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "time.is"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "tag": "12",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true,
+            "alpn": [
+              "http/1.1"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "tag": "15",
+          "type": "trojan",
+          "password": "72615fdf-ef86-45dc-9477-509608abadce",
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true,
+            "alpn": [
+              "h2"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "panel.mediconnectai.com",
+          "server_port": 443,
+          "tag": "16",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "panel.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "time.is",
+          "server_port": 443,
+          "tag": "25",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "cdn.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "cdn.mediconnectai.com"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Head \"https://www.instagram.com\": cipher: message authentication failed",
+          "server": "time.is",
+          "server_port": 443,
+          "tag": "27",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "time.is",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "unexpected HTTP response status: 404",
+          "server": "time.is",
+          "server_port": 443,
+          "tag": "31",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "time.is",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/M9W0bPOD2K6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "time.is"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "tag": "43",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0,
+          "tls": {
+            "enabled": true,
+            "server_name": "acdn.mediconnectai.com",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          },
+          "transport": {
+            "type": "ws",
+            "path": "/khkVPDsXDE6whtvGM3fr",
+            "headers": {
+              "Host": [
+                "acdn.mediconnectai.com"
+              ]
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "104.16.4.103",
+          "server_port": 443,
+          "tag": "45",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "104.16.4.103",
+            "insecure": true,
+            "alpn": [
+              "h2"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "sub.mediconnectai.com",
+          "server_port": 443,
+          "tag": "62",
+          "type": "vless",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "sub.mediconnectai.com",
+            "insecure": true,
+            "alpn": [
+              "h2"
+            ],
+            "utls": {
+              "enabled": true
+            }
+          }
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "sub.mediconnectai.com",
+          "server_port": 80,
+          "tag": "76",
+          "type": "vmess",
+          "uuid": "72615fdf-ef86-45dc-9477-509608abadce",
+          "security": "chacha20-poly1305",
+          "alter_id": 0
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "nsus3.irundns.net",
+          "server_port": 443,
+          "tag": "USA New York 2",
+          "type": "shadowsocksr",
+          "method": "aes-128-cfb",
+          "password": "+asd6a5s5df+",
+          "obfs": "http_post",
+          "protocol": "auth_aes128_md5"
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "207.244.208.189",
+          "server_port": 18000,
+          "tag": "101-1",
+          "type": "vmess",
+          "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+          "security": "auto",
+          "alter_id": 1
+        },
+        {
+          "groupid": "845ab06a-6029-4c1a-b7b8-372161c8e06a",
+          "latency": "Connect Timeout",
+          "server": "msuae.easytome.net",
+          "server_port": 443,
+          "tag": "Reality-vip1779240_vless-1",
+          "type": "vless",
+          "uuid": "568351CC-A492-9C29-5C2C-DF306009F321",
+          "packet_encoding": "xudp",
+          "tls": {
+            "enabled": true,
+            "server_name": "msuae.easytome.net",
+            "insecure": true,
+            "utls": {
+              "enabled": true
+            }
+          }
+        }
+      ],
+      "urltests": []
+    }
+  ]
+}
