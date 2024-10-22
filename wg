@@ -1,5 +1,4 @@
 warp://162.159.192.169:8319/?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4&&detour=warp://162.159.192.169:8319/?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#Anon-WoW-IPv4🇩🇪-1
-
+wg://162.159.192.242:4233?publicKey=bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=&privateKey=wF4MIEolgwPyXrxK8Wr04lm2r2nsawfv+cwtP0I9SHY=&ip=172.16.0.2/32,2606:4700:110:8f81:d551:a0:532e:a2b3/128&mtu=1280&dns=1.1.1.1&udp=1&reserved=74,71,6&flag=CDN#%E2%99%A6%EF%B8%8FOnly%20Chat%E2%99%A6%EF%B8%8F
 warp://188.114.98.235:3138/?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4&&detour=warp://188.114.98.235:3138/?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#Anon-WoW-IPv4🇩🇪-2
-
 warp://[2606:4700:d1::a000:87a3:5394:3e39]:859/?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4&&detour=warp://[2606:4700:d1::a000:87a3:5394:3e39]:859/?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#Anon-WoW-IPv6🇩🇪-3
