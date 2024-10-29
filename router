@@ -6,3 +6,4 @@ vless://3a956a78-55a4-4582-9954-4f954b4151f3@16.170.223.241:8081?type=tcp&header
 vless://ed0968ef-0eb4-4d1d-98d7-50dbcdb20e7c@cda1.mazedownloader.lol:443?type=ws&host=barbarian.segstar.info&sni=bzdownload.segstar.info&path=%2F&fp=chrome&security=tls&alpn=#🇩🇪-Config-1
 vless://ed0968ef-0eb4-4d1d-98d7-50dbcdb20e7c@cdb1.mazedownloader.lol:443?type=ws&host=barbarian.segstar.info&sni=bzdownload.segstar.info&path=%2F&fp=chrome&security=tls&alpn=#🇩🇪-Config-2
 vless://ed0968ef-0eb4-4d1d-98d7-50dbcdb20e7c@cdc1.mazedownloader.lol:443?type=ws&host=barbarian.segstar.info&sni=bzdownload.segstar.info&path=%2F&fp=chrome&security=tls&alpn=#🇩🇪-Config-3
+vmess://YXV0bzpmYTE4OTdkYi0xOTI1LTRjODYtYTQ5NS05MzlhOTU5YWY5MDBANzkuMTI3LjI0MS4xMzg6MTgwMDA?remarks=%F0%9F%9F%A279.127.241.138&obfs=none&alterId=1
