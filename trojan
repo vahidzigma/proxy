@@ -1,29 +1,59 @@
-trojan://auto@162.159.129.11:2053?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#5
-trojan://auto@abdullah.ns.cloudflare.com:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#11
-trojan://auto@bowen.ns.cloudflare.com:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#12
-trojan://auto@benedict.ns.cloudflare.com:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#13
-trojan://auto@braden.ns.cloudflare.com:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#14
-trojan://auto@cris.ns.cloudflare.com:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#15
-trojan://auto@craig.ns.cloudflare.com:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#16
-trojan://auto@decker.ns.cloudflare.com:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#17
-trojan://auto@damien.ns.cloudflare.com:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#18
-trojan://auto@dylan.ns.cloudflare.com:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#19
-trojan://auto@103.160.204.59:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#20
-trojan://auto@198.62.62.4:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#21
-trojan://auto@75.2.32.4:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#22
-trojan://auto@104.17.142.12:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#23
-trojan://auto@104.17.68.85:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#24
-trojan://auto@ashton.ns.cloudflare.com:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#10
-trojan://auto@104.25.254.4:2087?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#8
-trojan://auto@104.17.128.1:2096?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#9
-trojan://auto@162.159.129.67:8443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#6
-trojan://auto@icook.hk:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#2
-trojan://auto@visa.cn:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#1
-trojan://auto@104.16.134.27:2083?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#7
-trojan://auto@time.is:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#3
-trojan://auto@198.62.62.156:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/?ed=2560#4
-trojan://H8KniWToGgQOEKIv1@free-la-2.esvpnapp.com:443?peer=free-la-5.esvpnapp.com#free-la-2.esvpnapp.com
-trojan://H8KniWToGgQOEKIv1@free-la-1.esvpnapp.com:443?peer=free-la-5.esvpnapp.com#free-la-1.esvpnapp.com
-trojan://H8KniWToGgQOEKIv1@free-la-4.esvpnapp.com:443?peer=free-la-35.esvpnapp.com#free-la-4.esvpnapp.com
-trojan://H8KniWToGgQOEKIv1@free-la-5.esvpnapp.com:443?peer=free-la-5.esvpnapp.com#free-la-5.esvpnapp.com
-trojan://H8KniWToGgQOEKIv1@free-la-3.esvpnapp.com:443?peer=free-la-21.esvpnapp.com#free-la-3.esvpnapp.com
+# Shadowrocket: 2024-10-31 01:52:43
+[General]
+loglevel = error
+dns-server = 1.1.1.1,8.8.8.8,8.8.4.4,114.114.114.114,223.5.5.5
+interface = 127.0.0.1
+port = 1087
+tun = auto
+tun-fd = 5
+
+[Proxy]
+Direct = direct
+v0 = vmess,hms26.xpengmotors.sbs,443,username=fb0a2de6-bf06-4ff0-97ce-c21abcdc2d55,tls=true,sni=hms26.xpengmotors.sbs,ws=true,ws-path=/linkws,ws-host=hms26.xpengmotors.sbs
+v1 = vmess,hms21.beyonddsz.cfd,443,username= a84f7f13-1f13-4574-8f06-2673ee966c24,tls=true,sni=hms21.beyonddsz.cfd,ws=true,ws-path=/linkws,ws-host=hms21.beyonddsz.cfd
+v2 = vmess,hms17.mifixedfloat.top,443,username=0c869014-5ff1-4a1e-901f-198a9ee52ef9,tls=true,sni=hms17.mifixedfloat.top,ws=true,ws-path=/linkws,ws-host=hms17.mifixedfloat.top
+v3 = vmess,hms19.best-tizi.top,443,username=62aa5f80-0328-4004-a375-7f5a59df4022,tls=true,sni=hms19.best-tizi.top,ws=true,ws-path=/linkws,ws-host=hms19.best-tizi.top
+v4 = vmess,mifixedfloat.top,443,username=f1b76d52-84b8-4bac-b06e-e920e182c0c4,tls=true,sni=mifixedfloat.top,ws=true,ws-path=/linkws,ws-host=mifixedfloat.top
+v5 = vmess,bv20t.fixed-float.top,443,username=6c168fcc-2231-4f3b-8c1e-f6391692df4a,tls=true,sni=bv20.fixed-float.top,ws=true,ws-path=/linkws,ws-host=bv20.fixed-float.top
+v6 = vmess,hms182.glweidf.sbs,443,username=76221bfb-e92f-4e80-81c5-6fe48f50ac0b,tls=true,sni=glweidf.sbs,ws=true,ws-path=/linkws,ws-host=glweidf.sbs
+v7 = vmess,jahfkjha.cfd,443,username=950db6aa-4926-4616-816e-ec0312dcb87b,tls=true,sni=jahfkjha.cfd,ws=true,ws-path=/linkws,ws-host=jahfkjha.cfd
+v8 = vmess,gc06.obdii.cfd,443,username=05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d,tls=true,sni=obdii.cfd,ws=true,ws-path=/linkws,ws-host=obdii.cfd
+v9 = vmess,obdii.cfd,443,username=05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d,tls=true,sni=obdii.cfd,ws=true,ws-path=/linkws,ws-host=obdii.cfd
+v10 = vmess,hms23.fixedfloati.cfd,443,username=9072d339-3885-4fe1-b0bc-29fa7505410e,tls=true,sni=fixedfloati.cfd,ws=true,ws-path=/linkwsd,ws-host=fixedfloati.cfd
+v11 = vmess,lin0502.hwcar.sbs,443,username=39cec18f-a439-427c-9a4e-aeb6fcdf6f53,tls=true,sni=linja05.hwcar.sbs,ws=true,ws-path=/linkws,ws-host=linja05.hwcar.sbs
+v12 = vmess,hms16.bestxray.buzz,443,username=f584de15-2034-4170-a723-f48c2bae5e0f,tls=true,sni=afrhms16v.bestxray.buzz,ws=true,ws-path=/linkws,ws-host=afrhms16v.bestxray.buzz
+v13 = vmess,lin05.hwcar.sbs,443,username=39cec18f-a439-427c-9a4e-aeb6fcdf6f53,tls=true,sni=linja05.hwcar.sbs,ws=true,ws-path=/linkws,ws-host=linja05.hwcar.sbs
+v14 = vmess,denc36.xtooltech.cfd,443,username=b321fd5d-e6ec-4293-a644-164e3885f52e,tls=true,sni=adenc36v.xtooltech.cfd,ws=true,ws-path=/linkws,ws-host=adenc36v.xtooltech.cfd
+v15 = vmess,hms2301.fixedfloati.cfd,443,username=9072d339-3885-4fe1-b0bc-29fa7505410e,tls=true,sni=fixedfloati.cfd,ws=true,ws-path=/linkwsd,ws-host=fixedfloati.cfd
+v16 = vmess,lin06.indiavideo.sbs,443,username=edbb1059-1633-4271-b66e-ed4fba47a1bf,tls=true,sni=linde06.indiavideo.sbs,ws=true,ws-path=/linkws,ws-host=linde06.indiavideo.sbs
+v17 = vmess,hms082.gwdef.sbs,443,username=bc864078-dcf3-4bf4-8dbf-ca9f200b56be,tls=true,sni=gwdef.sbs,ws=true,ws-path=/linkws,ws-host=gwdef.sbs
+v18 = vmess,linde06.indiavideo.sbs,443,username=edbb1059-1633-4271-b66e-ed4fba47a1bf,tls=true,sni=linde06.indiavideo.sbs,ws=true,ws-path=/linkws,ws-host=linde06.indiavideo.sbs
+v19 = vmess,gt021.bestforxray.buzz,443,username=c1fd780a-3408-4f48-a932-5832a28ce9f6,tls=true,sni=ausgt02.bestforxray.buzz,ws=true,ws-path=/linkws,ws-host=ausgt02.bestforxray.buzz
+v20 = vmess,gt02.bestforxray.buzz,443,username=c1fd780a-3408-4f48-a932-5832a28ce9f6,tls=true,sni=ausgt02.bestforxray.buzz,ws=true,ws-path=/linkws,ws-host=ausgt02.bestforxray.buzz
+v21 = trojan,hms01.beyonddbc.cfd,443,password=ee49ac8e-bd4e-4b5f-9247-db0f714e5556,sni=beyonddbc.cfd,ws=true,ws-path=/ee49ac8e-bd4e-4b5f-9247-db0f714e5556,ws-host=beyonddbc.cfd
+v22 = vmess,hms071.xfixedfloat.cfd,443,username=a1655f51-1e20-4a92-8a11-b7ca30a7a353,tls=true,sni=afrhms07.xfixedfloat.cfd,ws=true,ws-path=/linkws,ws-host=afrhms07.xfixedfloat.cfd
+v23 = vmess,hms07.xfixedfloat.cfd,443,username=a1655f51-1e20-4a92-8a11-b7ca30a7a353,tls=true,sni=afrhms07.xfixedfloat.cfd,ws=true,ws-path=/linkws,ws-host=afrhms07.xfixedfloat.cfd
+v24 = vmess,afrhms16v.bestxray.buzz,443,username=f584de15-2034-4170-a723-f48c2bae5e0f,tls=true,sni=afrhms16v.bestxray.buzz,ws=true,ws-path=/linkws,ws-host=afrhms16v.bestxray.buzz
+v25 = vmess,hms24.ivideos.sbs,443,username=441da342-ce90-441e-bff9-d2ceb55e68ca,tls=true,sni=ivideos.sbs,ws=true,ws-path=/linkws,ws-host=ivideos.sbs
+v26 = vmess,hms08.gwdef.sbs,443,username=bc864078-dcf3-4bf4-8dbf-ca9f200b56be,tls=true,sni=gwdef.sbs,ws=true,ws-path=/linkws,ws-host=gwdef.sbs
+v27 = vmess,hms18.glweidf.sbs,443,username=76221bfb-e92f-4e80-81c5-6fe48f50ac0b,tls=true,sni=glweidf.sbs,ws=true,ws-path=/linkws,ws-host=glweidf.sbs
+v28 = vmess,hms22.jahfkjha.cfd,443,username=950db6aa-4926-4616-816e-ec0312dcb87b,tls=true,sni=jahfkjha.cfd,ws=true,ws-path=/linkws,ws-host=jahfkjha.cfd
+v29 = vmess,glweidf.cfd,443,username=1052f24e-7b09-45eb-b0c5-d858eb124192,tls=true,sni=glweidf.cfd,ws=true,ws-path=/linkws,ws-host=glweidf.cfd
+v30 = vmess,irhms03.dongfeng.cfd,443,username=fa5b55cd-cafc-4de0-a4c8-722e02a9f58e,tls=true,sni=hms03.dongfeng.cfd,ws=true,ws-path=/linkws,ws-host=hms03.dongfeng.cfd
+v31 = vmess,hms02opi.fxiaomi.sbs,443,username=6c168fcc-2231-4f3b-8c1e-f6391692df4a,tls=true,sni=hms02.fxiaomi.sbs,ws=true,ws-path=/link,ws-host=hms02.fxiaomi.sbs
+v32 = vmess,hms04.xmivideo.cfd,443,username=93ea486a-bada-42a4-ac38-d088b320fa1e,tls=true,sni=xmivideo.cfd,ws=true,ws-path=/linkws,ws-host=xmivideo.cfd
+v33 = vmess,az05.beyondy.cfd,443,username=3f638f34-8dba-4186-bc43-2716a7ddd4be,tls=true,sni=az05.beyondy.cfd,ws=true,ws-path=/link,ws-host=az05.beyondy.cfd
+v34 = vmess,irvideo.cfd,443,username=e537f2f5-2a0c-4f59-92c9-832ca6433bf3,tls=true,sni=irvideo.cfd,ws=true,ws-path=/linkws,ws-host=irvideo.cfd
+v35 = vmess,hms25.xpeng.cfd,443,username=478a963d-c0b3-4df0-947b-1164a3fa4991,tls=true,sni=xpeng.cfd,ws=true,ws-path=/linkws,ws-host=xpeng.cfd
+v36 = vmess,hms2501.xpeng.cfd,443,username=478a963d-c0b3-4df0-947b-1164a3fa4991,tls=true,sni=xpeng.cfd,ws=true,ws-path=/linkws,ws-host=xpeng.cfd
+v37 = vmess,beyonddsz.cfd,443,username=9b456c2a-f2c1-45e1-87a9-b7628b04bb24,tls=true,sni=beyonddsz.cfd,ws=true,ws-path=/linkws,ws-host=beyonddsz.cfd
+v38 = vmess,beyonddbc.sbs,443,username=8d90c129-4156-4d6c-9115-24df25f26a02,tls=true,sni=beyonddbc.sbs,ws=true,ws-path=/linkws,ws-host=beyonddbc.sbs
+v39 = vmess,vip001.indiavideo.cfd,443,username=f05f9396-1f2f-4c2f-82a3-b0ae78727fe6,tls=true,sni=vip001.indiavideo.cfd,ws=true,ws-path= /linkws,ws-host=vip001.indiavideo.cfd
+v40 = vmess,indiavideo.sbs,443,username=425c5e6e-30a0-4984-8a13-ee6f72053162,tls=true,sni=indiavideo.sbs,ws=true,ws-path=/linkws,ws-host=indiavideo.sbs
+
+[Proxy Group]
+Failover = failover, v0,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,v16,v17,v18,v19,v20,v21,v22,v23,v24,v25,v26,v27,v28,v29,v30,v31,v32,v33,v34,v35,v36,v37,v38,v39,v40, health-check=true, check-interval=600, fail-timeout=5, failover=true
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,FAILOVER
