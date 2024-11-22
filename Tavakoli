@@ -18,3 +18,8 @@ ssr://bnNubDIuaXJ1bmRucy5uZXQ6NTAwMDphdXRoX2FlczEyOF9tZDU6Y2hhY2hhMjA6aHR0cF9zaW
 trojan://H8KniWToGgQOEKIv1@free-la-1.esvpnapp.com:443?peer=free-la-5.esvpnapp.com#%F0%9F%9F%A31esvpnapp
 vmess://YXV0bzoxM2FjOGJhYi0zNjEwLTQxZGEtYmY1NS02MjM2OTEwZjQ0N2JAbXNubDEuZWFzeXRvbWUubmV0Ojgw?remarks=%F0%9F%94%B5Vmess%20Turbo&obfsParam=fast.com&path=/&obfs=http&alterId=0
 ssr://bnNkZTQuaXJ1bmRucy5uZXQ6NTAwMDphdXRoX2FlczEyOF9tZDU6c2Fsc2EyMDpodHRwX3Bvc3Q6SzJGelpEWmhOWE0xWkdZci8_cmVtYXJrcz04Si1VdFVKbGNteHBiaUF4JnByb3RvcGFyYW09Jm9iZnNwYXJhbT0
+vmess://YXV0bzpmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmVAMTA4LjE2NS42MS4xNTQ6MTgwMDA?remarks=108.165.61.154&path=/&alterId=0
+trojan://auto@damien.ns.cloudflare.com:443?peer=b96ef9ae.trojanfree-76s.pages.dev&plugin=obfs-local;obfs=websocket;obfs-host=b96ef9ae.trojanfree-76s.pages.dev;obfs-uri=/b96ef9ae.trojanfree-76s.pages.dev/#%F0%9F%9F%A2damien.ns.cloudflare.com
+hysteria2://KevinZakarian@kevin.serverv.net:8443?insecure=1&obfs=salamander&obfs-password=KevinZakarian#%F0%9F%9F%A2kevin.serverv.net
+vmess://YXV0bzpmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmVAMTA4LjE2NS42MS45OToxODAwMA?remarks=108.165.61.99&path=/&alterId=0
+vmess://YXV0bzpmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmVAMTA4LjE2NS42MS4xMTI6MTgwMDA?remarks=108.165.61.112&path=/&alterId=0
