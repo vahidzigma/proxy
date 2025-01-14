@@ -100,3 +100,9 @@ trojan://auto@damien.ns.cloudflare.com:443?peer=b96ef9ae.trojanfree-76s.pages.de
 hysteria2://KevinZakarian@kevin.serverv.net:8443?insecure=1&obfs=salamander&obfs-password=KevinZakarian#%F0%9F%9F%A2kevin.serverv.net
 vmess://YXV0bzpmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmVAMTA4LjE2NS42MS45OToxODAwMA?remarks=108.165.61.99&path=/&alterId=0
 vmess://YXV0bzpmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmVAMTA4LjE2NS42MS4xMTI6MTgwMDA?remarks=108.165.61.112&path=/&alterId=0
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpodGYwcW1FV1Jja0N4WDVHczdBc3FYQGdlcm1hbnkyNC55b3VyYm90Lm1lOjQyMjk4#%F0%9F%8E%84Best
+vmess://YXV0bzpmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmVANzkuMTI3LjI0My4xOTg6MTgwMDA?remarks=Nw&alterId=0
+vmess://YXV0bzpkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTJAOTYuNjIuMjM3LjIyOjE4MDAw?remarks=Da&path=/&alterId=0
+vless://YXV0bzoyNTNlZjU2MS05ZTU3LTQzMzYtYmVmZC04NzhkZGQzMGRmMDFAMTY3LjgyLjEuMTMwOjgw?remarks=%F0%9F%87%A9%F0%9F%87%AA&obfsParam=teleirani.ir&path=/&obfs=websocket&tls=1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOVpDU0ZiUDhDVXpRUXNNSksxaHJJQDQ1LjE5NS42OS4yMTQ6NDQz#%F0%9F%8E%84
+vless://YXV0bzoxODc0YTlmNS05NjQ0LTQzNDQtYTlkMS03Yjk2YTc3Njc0NzZAMzEuNDcuNTEuMTc6ODA4MA?remarks=Tunnel
