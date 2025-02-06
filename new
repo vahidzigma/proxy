@@ -1,0 +1,4 @@
+vmess://eyJhZGQiOiIxMDkuMTA0LjE1My45NCIsImFpZCI6IjAiLCJob3N0IjoiZmFzdC5jb20iLCJpZCI6IjEzYWM4YmFiLTM2MTAtNDFkYS1iZjU1LTYyMzY5MTBmNDQ3YiIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjgwIiwicHMiOiJ2bWVzcyBhbWVzdGVyZGFtIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJodHRwIiwidiI6IjIifQ==
+vless://57a929fe-f2ba-41e9-b925-6b6cd9f52ad2@212.86.94.18:8081?security=&type=tcp&path=/&headerType=http&host=fast.com&encryption=none#vless%20paris
+vless://15d4bae4-36ef-4b21-84cf-ae0f0f328409@79.127.42.168:8081?security=&type=tcp&path=/&headerType=http&host=fast.com&encryption=none#vless%20berlin
+vless://57a929fe-f2ba-41e9-b925-6b6cd9f52ad2@212.86.94.18:8081?security=&type=tcp&path=/&headerType=http&host=fast.com&encryption=none#vless%20istanbul
