@@ -23,3 +23,6 @@ vless://YXV0bzo0NWYzOTI3MC04NDZmLTQ0Y2YtYmNiZS1kMzFmMzlhN2Q4YTVANzkuMTI3LjQyLjE2
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPREE1WWpGaA@146.19.247.183:8388#SSH-1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPREE1WWpGaA@146.19.247.183:8139?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dct.cloudflare.com%3Bobfs-uri%3D%2F#SSH-2
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPREE1WWpGaA@146.19.247.183:1443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dct.cloudflare.com%3Bobfs-uri%3D%2F#SSH-3
+
+
+ss://YWVzLTEyOC1nY206b0srdE9CYWVpaWtBRU1HZTVPa054dFpFTUNIODlJbi9XcjN0QWdxN2xuVT0@g1.teuto.ir:443#AmirMolaei1
