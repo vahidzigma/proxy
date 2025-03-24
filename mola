@@ -109,3 +109,6 @@ vless://YXV0bzoxODc0YTlmNS05NjQ0LTQzNDQtYTlkMS03Yjk2YTc3Njc0NzZAMzEuNDcuNTEuMTc6
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6SWFhcjF4dzZKQzF2Q1dJWjhwQVZSQDE2LjE3MC4yMzYuMjM6MTI5MTY#New%20valentine%201
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRZHY3VFJEaUJvblFCSS1kR1BwVEF3QDE5NS4xNS4yMTUuMTk4OjU1NTU#New%20valentine%202
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvb3NyUkhMOTI4NmdNY1VuTGk2Yzg1QGd1cnZwbl9ib3Qub3V0bGluZWtleXMubmV0OjQ0MzM#New%20valentine%203
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPREE1WWpGaA@146.19.247.183:8388#SSH-1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPREE1WWpGaA@146.19.247.183:8139?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dct.cloudflare.com%3Bobfs-uri%3D%2F#SSH-2
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPREE1WWpGaA@146.19.247.183:1443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dct.cloudflare.com%3Bobfs-uri%3D%2F#SSH-3
