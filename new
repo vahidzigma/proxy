@@ -26,7 +26,8 @@ vless://0f15583c-f085-451a-8ae5-1338a5a73def@iran.ir.cdnturbo.net:2082?encryptio
 vless://892357a9-a438-4fcb-94d1-876b61573219@188.114.98.0:2082?encryption=none&security=none&type=ws&host=master.irundns.net&path=%2F%3Fed%3D2052#%F0%9F%87%A9%F0%9F%87%AA%20%7C%20Germany-turbo
 vless://01bff5ba-d26a-4a1b-aec7-329d5de61d35@msiuae.easytome.net:443?encryption=none&security=none&type=tcp&headerType=http#VLESS-uq8hteex
 vless://9db044e6-4389-4907-89e7-9bf7d82c43d6@s1.fastsnap.info:13152?encryption=none&security=tls&sni=s1.fastsnap.info&alpn=h3%2Ch2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=tcp&headerType=none#hd
-
+vless://a1e281c8-0528-430f-99a9-16be2a567029@188.0.247.137:37052?#ok
+vless://a1e281c8-0528-430f-99a9-16be2a567029@s1.fastsnap.info:37052?security=tls&sni=s1.fastsnap.info&alpn=h3,h2,http/1.1#Vless-TLS-Abdollahi
 
 ssr://bnNkZTMuaXJ1bmRucy5uZXQ6NTAwMDphdXRoX2FlczEyOF9tZDU6Y2hhY2hhMjA6aHR0cF9zaW1wbGU6U21nck1qZzNWVUpCWkVBci8_cmVtYXJrcz1WSFZ5WW04Z2JuTmtaVE0mcHJvdG9wYXJhbT0mb2Jmc3BhcmFtPQ
 ssr://bnNmcjIuaXJ1bmRucy5uZXQ6NTAwMDphdXRoX2FlczEyOF9tZDU6Y2hhY2hhMjA6aHR0cF9zaW1wbGU6SzFSVlVqZ3dOMUJPS3lzLz9yZW1hcmtzPVZIVnlZbThnYm5ObWNqSSZwcm90b3BhcmFtPSZvYmZzcGFyYW09
