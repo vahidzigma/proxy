@@ -17,3 +17,6 @@ vless://b8c9d0e1-f2a3-4567-bcde-678901234567@37.98.113.171:444?type=grpc&securit
 vless://c9d0e1f2-a3b4-5678-cdef-789012345678@37.98.113.171:444?type=grpc&security=reality&sni=www.digikala.com&fp=chrome&pbk=w5dhY8VagIZVhkI3Nu4HuWRymJeM6AwHWhOwsOzINnw&sid=12345678&encryption=none&serviceName=mygrpc#User9-gRPC
 
 vless://d0e1f2a3-b4c5-6789-defa-890123456789@37.98.113.171:444?type=grpc&security=reality&sni=www.digikala.com&fp=chrome&pbk=w5dhY8VagIZVhkI3Nu4HuWRymJeM6AwHWhOwsOzINnw&sid=12345678&encryption=none&serviceName=mygrpc#User10-gRPC
+
+
+vless://5beb8b73-3ab4-443f-8184-2277bdc82345@localhost:443?type=tcp&encryption=none&security=reality&pbk=&fp=chrome&sni=www.digikala.com&sid=12345678&spx=%2F&flow=xtls-rprx-vision#My-VPN
