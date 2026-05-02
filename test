@@ -19,4 +19,4 @@ vless://c9d0e1f2-a3b4-5678-cdef-789012345678@37.98.113.171:444?type=grpc&securit
 vless://d0e1f2a3-b4c5-6789-defa-890123456789@37.98.113.171:444?type=grpc&security=reality&sni=www.digikala.com&fp=chrome&pbk=w5dhY8VagIZVhkI3Nu4HuWRymJeM6AwHWhOwsOzINnw&sid=12345678&encryption=none&serviceName=mygrpc#User10-gRPC
 
 
-vless://5beb8b73-3ab4-443f-8184-2277bdc82345@localhost:443?type=tcp&encryption=none&security=reality&pbk=&fp=chrome&sni=www.digikala.com&sid=12345678&spx=%2F&flow=xtls-rprx-vision#My-VPN
+vless://9032370d-f124-4228-93b1-30c7e43a4ce4@37.98.113.171:443?type=tcp&security=reality&sni=www.digikala.com&fp=chrome&pbk=&sid=12345678&flow=xtls-rprx-vision&encryption=none#StarLink-OpenWrt
