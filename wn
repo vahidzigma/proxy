@@ -1,1 +1,1 @@
-vless://N3VAaPib5kSZ@37.98.113.171:443?type=grpc&security=none&serviceName=mygrpc&mode=gun#Home-gRPC
+vless://N3VAaPib5kSZ@37.98.113.171:443?type=tcp&security=none#Test-TCP
