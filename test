@@ -15,4 +15,4 @@ vless://a1a7fd64-d6f6-4bf2-abff-35606bda3760@37.148.48.3:8443?type=ws&security=n
 vless://23032d0d-fbb5-4398-a10f-8fc847a401cd@37.148.48.3:8443?type=ws&security=none&path=/myway#User-15
 
 
-vless://N3VAaPib5kSZ@37.148.48.3:8444?type=grpc&security=none&serviceName=mygrpc&mode=gun#gRPC-Test
+vless://N3VAaPib5kSZ@37.148.48.3:8444?type=ws&security=none&path=/test#Test-WS-8444
