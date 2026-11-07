@@ -1,9 +1,0 @@
-#EXTM3U
-#EXTINF:-1,کانال AparatSport (لینک ۱)
-https://live.cdn.asset.aparatsport.ir/0b14467da247cb8d536eaa19b66a6ea5/livehls/aparatsportlive1_ijr15p1_720p/index.m3u8?ip=178.131.162.183&s=Cm2BWLTnrMqcL59Guw1ehg&e=1782083471
-
-#EXTINF:-1,کانال AparatSport (لینک ۲)
-https://live.cdn.asset.aparatsport.ir/7a32ffd60c58d09c056ffc441dc9c285/livehls/AparatSport1_cxomtw8_720p/index.m3u8?s=Wt406_rBSfkBw_vUAsQZUA&e=1782083594&ip=178.131.162.183
-
-#EXTINF:-1,کانال AdabMedia (لینک ۳ - نیاز به بررسی)
-https://cp11.adabmedia.com/hls2/sport.m3u8
